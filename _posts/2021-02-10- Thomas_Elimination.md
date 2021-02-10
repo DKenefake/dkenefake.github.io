@@ -94,7 +94,7 @@ def thomas_elimination(a, b, c, d):
 
 Now that we have some example code, let's try to solve the motivating problem. Here we will discretize the following Poisson boundary value problem and solve it via the Thomas Elimination algorithm.
 
-$$\frac{d^2}{dx^2}u(x) = sin(x), u(0) = u(1) = 0$$
+$$\frac{d^2}{dx^2}u(x) = 1, u(0) = u(1) = 0$$
 
 $$u_0 = 0$$
 
