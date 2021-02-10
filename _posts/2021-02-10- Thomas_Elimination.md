@@ -61,7 +61,7 @@ Then the second step, back substitution, we have
 $$x_n = d'_n$$
 $$x_i = d'_{i} - c'_i x_{i+1}, i = n-1, \dots, 1$$
 
-I have implemented this in Python 3.7 with NumPy. Of course, there are much faster public implementations that can be found in the ```scipy.linalg``` package. This is just an example of implementation.
+I have implemented this in Python 3.7 with NumPy. Of course, there are much faster public implementations that can be found in the ```scipy.linalg``` package. This is just an example implementation.
 
 ```python
 import numpy
