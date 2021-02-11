@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 title: Thomas Elimination and Poissons Equation
-date: 2021-02-03
+date: 2021-02-10
 category:
   - Blog
 tags:
