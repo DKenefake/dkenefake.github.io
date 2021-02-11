@@ -5,6 +5,9 @@ title: Model Predictive Control - State Space Model
 date: 2020-12-10
 category:
   - Blog
+tags:
+  - Optimization
+  - Process Control
 ---
 
 With model predictive control, a mathematic optimization problem is solved to find the 'optimal' control needed to drive the system to a specified set point. A model of the system is embedded into the constraints of the optimization problem in the following way.
