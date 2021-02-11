@@ -4,6 +4,10 @@ title: SmallPRNG - Swapping Random Number Generators
 date: 2020-08-15
 categories:
   - Personal Projects
+ tags:
+  - C++
+  - Code
+  - PRNG
 ---
 
 With Monte Carlo methods, it is well known that the quality of the results is sensitive to the quality of the random number generation. With some spectacular differences being seen in the literature [1](https://surface.syr.edu/cgi/viewcontent.cgi?article=1033&context=npac), [2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2992609/).
