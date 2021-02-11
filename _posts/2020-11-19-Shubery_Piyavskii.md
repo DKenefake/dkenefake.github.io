@@ -5,6 +5,11 @@ title: Global optimization on a black box function - The Shubert-Piyavskii Metho
 date: 2020-11-19
 category:
   - Blog
+tags:
+  - Python
+  - Code
+  - Optimization
+  - Visualization
 ---
 
 I came across this method the other week, and I think it is an elegant way to tackle 1D global optimization. The Shubert-Piyavskii method is a global optimization method that is guaranteed to converge to the global minimum of a function. The method requires that the function that we are trying to minimize be Lipschitz continuous and that we know a reasonable upper bound of the constant. This is, in effect a, stipulation that the magnitude of the derivative is bounded. One of the disadvantages of this method is that you must know either the Lipchitz constant or a reasonable number the minimally bounds the Lipchitz constant.
