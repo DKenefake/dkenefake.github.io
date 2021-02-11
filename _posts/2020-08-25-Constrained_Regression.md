@@ -5,11 +5,12 @@ title: Constrained Min Norm - Linear Equality Constraints
 date: 2020-08-25
 category:
   - Blog
- tags:
+tags:
   - Python
   - Code
   - Math
   - Optimization
+  - Regression
 ---
 Recently I have been reading on how to regress with constraints. It has uses in fitting models to data as well as signal reconstruction. In this post we will look at how to solve optimization problems of the following form.
 
