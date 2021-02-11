@@ -5,6 +5,11 @@ title: Fourier Series Acceleration
 date: 2020-12-11
 category:
   - Blog
+tags:
+  - Performance
+  - Python
+  - Code
+  - Math
 ---
 
 Fourier series expansions are widely used as a problem-solving tool in engineering and other computational sciences. In effect, it is a simple expansion of orthonormal basis functions to approximate some original function. This is very useful for solving ordinary differential equations and partial differential equations, and the solutions created by using a Fourier series expansions is yet another Fourier series. The downside to this is that to evaluate this series is not always easy, nor does the series necessarily converge quickly. In many cases, the convergence of a series solution can be of order $\mathcal{O}(n^{-1})$, which means if we want 2 digit accuracy of our evaluated solution, we need to evaluate many of the terms of the series. This is not amenable to real-time computing, where a calculation must take as little time as possible and have a clear upper bound on time.
