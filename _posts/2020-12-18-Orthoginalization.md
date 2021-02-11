@@ -5,6 +5,10 @@ title: Orthoginalization - Modified Gram-Schmidt
 date: 2020-12-18
 category:
   - Blog
+tags:
+  - Python
+  - Code
+  - Linear Algebra
 ---
 
 Orthogonalizing a basis is an important topic in computational science and engineering, from solving linear systems to creating a basis for solving partial differential equations. The basic idea behind orthogonalization is that you want to create a new set of vectors that are all 'perpendicular' to each other to express your old vectors. The first algorithm that many people learn to do this is called the Gram-Schmidt algorithm, and while it is quite effective at dealing with many systems, the algorithm's performance to deal with high-condition number systems. This degradation is in the accuracy of the output sense and not in a run-time sense. To be clear, this code is not aiming to be performant but to be simple implementation, much more performant implementations can be found in the standard numerical linear algebra libraries.
