@@ -5,6 +5,10 @@ title: Synthtic Guitar Strings - Kurplus-Strong Algorithm
 date: 2021-01-30
 category:
   - Blog
+tags:
+  - Music
+  - Python
+  - Code
 ---
 
 This is just a fun post, where I look at the [Karplus-Strong Algorithm](https://en.wikipedia.org/wiki/Karplus%E2%80%93Strong_string_synthesis). This algorithm is used to produce synthetic guitar sounds via looping a waveform repeatedly thru a filter. That might sound strange, but what it is doing is taking a 'pluck' of random noise; you continuously feed it back into a filter that stands in as the 'string' decaying over time. This is what would make sense after you pluck a guitar string. It eventually becomes quiet. There are a few moving parts to this post, but you will get a treat at the end. 
