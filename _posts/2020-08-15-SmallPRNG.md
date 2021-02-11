@@ -4,7 +4,7 @@ title: SmallPRNG - Swapping Random Number Generators
 date: 2020-08-15
 categories:
   - Personal Projects
- tags:
+tags:
   - C++
   - Code
   - PRNG
