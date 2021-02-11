@@ -5,6 +5,12 @@ title: Thomas Elimination and Poissons Equation
 date: 2021-02-03
 category:
   - Blog
+tags:
+  - Python
+  - Code
+  - Linear Algebra
+  - Performance
+  - Visualization
 ---
 
 In today's post, I will talk about a particular form of square matrices that Tridiaginal Matrices. These are matrices where the only nonzero elements are on the main diagonal and the diagonals directly above and below the main diagonal. These matrices can be visualized in the example below, where A is a tridiagonal matrix. Matrices of this type show up in science and engineering computations quite often, and these matrices have specialized algorithms to solve linear systems based on tridiagonal systems. The speedup can be quite dramatic, switching from a general linear systems solver to specialized tridiagonal solvers.
