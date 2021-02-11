@@ -5,7 +5,7 @@ title: Unconstrained Optimization - Explanation and Examples
 date: 2020-08-15
 category:
   - Blog
- tags:
+tags:
   - Python
   - Code
   - Optimization
