@@ -5,6 +5,12 @@ title: Applications of Optimization - Nonlinear Regression
 date: 2021-1-3
 category:
   - Blog
+tags:
+  - Optimiaztion
+  - Math
+  - Python
+  - Code
+  - Regression
 ---
 
 I have been on a regression kick in the last few days. We have talked about multiple different classes of min norm problems, ridge regression, and least squares, now we will talk about some methods to solve nonlinear least-squares problems, aka nonlinear regression. In the previous methods, there was an assumption that the output variables were a linear function of input parameters, which isn't always the case. Population dynamics and demand response functions are usually nonlinear, and it is important to capture that information.
@@ -39,7 +45,8 @@ $$f(x, \beta_0, \beta_1) = \beta_0 e^{\beta_1 x}$$
 The jacobian has the following form, 
 
 $$\frac{\partial r_i}{\partial \beta_0} = e^{\beta_1 x}$$
-$$\frac{\partial r_i}{\partial \beta_0} = \beta_0 x e^{\beta_1 x}$$
+
+$$\frac{\partial r_i}{\partial \beta_1} = \beta_0 x e^{\beta_1 x}$$
 
 
 With a starting guess of $\beta_0 = 8.3, \beta_1 = .3$ we converge to the solution in only 7 iterations with $\lambda = 0$. Since we are already near the optimal parameters, the LM algorithm's added stability is not shown here, but we can see that if we increase the LM parameter, the number of iterations needed to converge rapidly increases. 
