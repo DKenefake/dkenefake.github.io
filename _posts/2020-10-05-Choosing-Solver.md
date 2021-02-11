@@ -5,6 +5,11 @@ title: Choosing the correct solver type - Dense or Sparse
 date: 2020-10-05
 category:
   - Blog
+tags:
+  - Python
+  - Code
+  - Optimization
+  - Performance
 ---
 
 The prevailing opinion for solving mathematical programming problems is to use sparse solvers that utilize structure and sparsity to accelerate solution speeds. However, this is not always advantageous. For example, when solving smaller problems will little structure or a relatively small number of nonzero's in the constraint matrix, dense solvers can be radically faster.
