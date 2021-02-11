@@ -5,6 +5,9 @@ title: Calculating the Conjugate Function
 date: 2020-12-16
 category:
   - Blog
+tags:
+  - Optimization
+  - Math
 ---
 
 Duality theory is an important aspect to mathematical programming, that is to say solving optimization problems. It is easy to see for linear programs, as the dual of these problems is little more than taking the transpose of the matrices and vectors involved. Shown below
