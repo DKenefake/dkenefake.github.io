@@ -5,6 +5,12 @@ title: Utilizing Hardware - Python Numba and Cuda
 date: 2020-09-02
 category:
   - Blog
+tags:
+  - Python
+  - Code
+  - PRNG
+  - GPU
+  - Performance
 ---
 
 I recently did some Monte-Carlo, and I wanted to show the differences in performance between native python code, fully parallel compiled Numpy code, and unoptimized GPU Cuda code running the cupy package. Part of what makes python so powerful is the ability to tap into these resources without changing too many things (as you will see in the code example).
