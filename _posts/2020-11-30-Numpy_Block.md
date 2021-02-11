@@ -5,6 +5,10 @@ title: Numpy Block is slow
 date: 2020-11-30
 category:
   - Blog
+tags:
+  - Performance
+  - Python
+  - Code
 ---
 I have been writing a solver that makes heavy use of Numpy. Due to error checking and other overhead in NumPy, we can avoid these costs. In a situation where one needs to compose hundreds of millions of matrices can cause performance issues.
 
@@ -44,8 +48,6 @@ row_blocking = [row for i in range(10)]
 %timeit numpy.block(row_blocking)
 
 ```
-
-
 
 
 ```python
