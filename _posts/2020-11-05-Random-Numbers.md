@@ -5,6 +5,11 @@ title: Speed Differences between different RNGs
 date: 2020-11-7
 category:
   - Blog
+tags:
+  - C++
+  - PRNG
+  - Performance
+  - Code
 ---
 
 
