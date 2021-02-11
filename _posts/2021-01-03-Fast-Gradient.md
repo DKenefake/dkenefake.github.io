@@ -5,6 +5,11 @@ title: Optimizing Optimization - Faster Gradients
 date: 2021-1-4
 category:
   - Blog
+tags:
+  - Code
+  - Python
+  - Performance
+  - Optimization
 ---
 
 Most, if not all, gradient descent algorithms are characterized by the number of times the function's gradient needs to be evaluated. A practical thing to do is look at how these are calculated and try to speed them up.
