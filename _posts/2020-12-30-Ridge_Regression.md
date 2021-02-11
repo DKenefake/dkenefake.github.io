@@ -5,6 +5,12 @@ title: Applications of Optimization - Ridge Regression
 date: 2020-12-30
 category:
   - Blog
+tags:
+  - Python
+  - Code
+  - Regression
+  - Optimization
+  - Visualization
 ---
 
 Ridge regression is a variation of least squares in that it adds a penalty to having large parameter values. This penalty is tunable and will change the model bias-variance trade-off. For a linear unconstrained ridge regression, the objective takes the following form: both norms are taken in the l2 sense.
