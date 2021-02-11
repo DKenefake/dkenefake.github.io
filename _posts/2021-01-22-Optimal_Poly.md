@@ -5,6 +5,12 @@ title: Optimal Polynomial Approximation
 date: 2021-1-22
 category:
   - Blog
+tags:
+  - Math
+  - Python
+  - Code
+  - Regression
+  - Optimization
 ---
 
 The optimal approximation is finding an approximate function that minimizes some objective function based on the difference between your original and approximate function. This can be stated as a min-max problem. This post will look at the following optimization problem: we are looking for the $n^{th}$ order polynomial that minimizes the maximum error. This is typically called the 'best polynomial approximation,' but what is optimal depends entirely on what your objective function is.
