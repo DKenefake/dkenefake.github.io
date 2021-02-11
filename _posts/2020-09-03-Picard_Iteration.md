@@ -4,7 +4,11 @@ mathjax: true
 title: Picard Iteration - Theory and Application
 date: 2020-09-03
 category:
-  - Blog
+  - Blog 
+tags:
+  - Python
+  - Math
+  - Code
 ---
 
 Picard Iteration is a neet method I stumbled across today. It is an iterative method coming from fixed-point theory to solve an initial value problem symbolically. 
