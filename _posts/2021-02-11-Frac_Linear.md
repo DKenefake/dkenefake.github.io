@@ -18,21 +18,22 @@ $$\text{s.t. } Ax\leq b$$
 
 We can use the variable transform to create a linear program without the fractional objective.
 
-
 $$t = \frac{1}{d^Tx + \beta}$$
 
 $$y = tx = \frac{1}{d^Tx + \beta}x$$
 
+The resulting programming problem is just a particular linear programming problem.
+
 $$\max_{y, t} c^Ty + \alpha t$$
 
 $$
-    \begin{align}
+    \begin{align*}
         \begin{split}
             d^Ty + \beta t &= 1\\
             Ay - bt &\leq 0\\
             -t&\leq 0
         \end{split}
-    \end{align}
+    \end{align*}
 $$
 
 The solution to the fractional optimization problem is $x = \frac{y}{x}$. I ran into this program when looking at planning problems in my studies. This transformation lets you solve fractional linear programming problems with any linear programming solver.
