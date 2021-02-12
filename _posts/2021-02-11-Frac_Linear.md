@@ -36,7 +36,7 @@ $$
     \end{align*}
 $$
 
-The solution to the fractional optimization problem is $x = \frac{y}{x}$. I ran into this program when looking at planning problems in my studies. This transformation lets you solve fractional linear programming problems with any linear programming solver.
+The solution to the fractional optimization problem is $x = \frac{y}{t}$. I ran into this program when looking at planning problems in my studies. This transformation lets you solve fractional linear programming problems with any linear programming solver.
 
 ## Resources
 
