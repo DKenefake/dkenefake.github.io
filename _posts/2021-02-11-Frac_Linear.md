@@ -1,8 +1,8 @@
 ---
 layout: post
 mathjax: true
-title: Fractional Linear Programming with 
-date: 2021-02-10
+title: Fractional Linear Programming with Charnes-Cooper
+date: 2021-02-12
 category:
   - Blog
 tags:
