@@ -12,7 +12,7 @@ tags:
 
 Trying to optimize ratios of variables is a common problem that crops up in practice. While this fractional constraint can not be directly addressed with linear programming, it can be reformulated with the Charnes-Cooper transformation, given the following fractional linear programming problem. (Side note, this is based on a point where $d^Tx = \beta$ is not feasible. Otherwise, it would be unbounded). 
 
-$$\min_x \frac{c^Tx+\alpha}{d^Tx + \beta}$$
+$$\max_x \frac{c^Tx+\alpha}{d^Tx + \beta}$$
 
 $$\text{s.t. } Ax\leq b$$
 
