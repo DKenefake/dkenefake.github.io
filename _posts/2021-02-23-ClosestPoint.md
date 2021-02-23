@@ -16,7 +16,7 @@ I have been doing some geometry calculations for a project recently, and I solve
 $$
 \begin{align*}
 \min\quad|| x_1 - x_2||_1\\
-  A_1 x_1 &\leq b_1\\
+  \text{s.t. } A_1 x_1 &\leq b_1\\
   A_2 x_2 &\leq b_2\\
   x_1, x_2&\in\mathcal{R}^n
 \end{align*}
