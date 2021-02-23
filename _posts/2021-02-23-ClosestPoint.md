@@ -8,6 +8,7 @@ category:
 tags:
   - Optimization
   - Math
+  - Geometry
 ---
 
 I have been doing some geometry calculations for a project recently, and I solved a problem in a way that I thought was pretty neat. The problem is calculating the closest pair of points between two convex polytopes. Surprisingly this is a fairly common calculation that crops up in optimal control applications. To get some definitions out of the way, we are defining an $n$ dimensional polytope as $\mathcal{P} = \{x\in\mathcal{R}^n : Ax\leq b\}$. Where a two-dimensional polytope is your regular polygon, and the simplest 2-dimensional polygon is a triangle. The problem we are trying to solve is the following optimization problem.
