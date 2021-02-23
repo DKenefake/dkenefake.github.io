@@ -31,7 +31,7 @@ $$
   A_2 x_2 &\leq b_2\\
   -t \leq x_{1} -& x_{2} \leq t\\
   x_1, x_2&\in\mathcal{R}^n\\
-  t&\in\mathcal{R}
+  t&\in\mathcal{R}_+
 \end{align*}
 $$
 
@@ -44,7 +44,7 @@ $$
   A_2 x_2 &\leq b_2\\
   -t \leq x_{1,j} -& x_{2,j} \leq t, \forall j \in\{1,\dots, n\}\\
   x_1, x_2&\in\mathcal{R}^n\\
-  t&\in\mathcal{R}
+  t&\in\mathcal{R}_+
 \end{align*}
 $$
 
