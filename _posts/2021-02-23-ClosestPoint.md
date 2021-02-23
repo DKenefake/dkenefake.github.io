@@ -22,7 +22,7 @@ $$
 \end{align*}
 $$
 
-Here, if the above problem's optimal value is zero, we can see that these polytopes must share a point. In other words, if the minimum distance between the two points in different polytopes is zero, then these points must be the same point. The problem, as stated, is not easy (due to the $l1$ norm) in the objective function, but this is fixable by reformulating the above optimization problem with a minimax type approach. By introducing an additional variable and constraint, we can reformulate this problem into an equivalent linear program readily solvable. Here the added variable $t$ is the bounds on the difference of the two points.
+Here, if the above problem's optimal value is zero, we can see that these polytopes must share a point. In other words, if the minimum distance between the two points in different polytopes is zero, then these points must be the same point. The problem, as stated, is not easy (due to the $l_1$ norm) in the objective function, but this is fixable by reformulating the above optimization problem with a minimax type approach. By introducing an additional variable and constraint, we can reformulate this problem into an equivalent linear program readily solvable. Here the added variable $t$ is the bounds on the difference of the two points.
 
 $$
 \begin{align*}
@@ -35,7 +35,7 @@ $$
 \end{align*}
 $$
 
-As an interesting note, we can solve the $l\infty$ problem by changing what constraints we are adding. If we change the added constraints to each dimension of the points, we are trying to minimize each dimension's largest difference.
+As an interesting note, we can solve the $l_\infty$ problem by changing what constraints we are adding. If we change the added constraints to each dimension of the points, we are trying to minimize each dimension's largest difference.
 
 $$
 \begin{align*}
