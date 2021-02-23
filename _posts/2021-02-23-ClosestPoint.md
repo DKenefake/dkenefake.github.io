@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 title: Closest point between two convex polytopes 
-date: 2020-12-18
+date: 2021-2-23
 category:
   - Blog
 tags:
