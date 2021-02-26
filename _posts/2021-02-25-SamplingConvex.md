@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: SamplingConvexBodies 
+title: Sampling Convex Regions with Hit-and-Run 
 date: 2021-2-23
 category:
   - Blog
