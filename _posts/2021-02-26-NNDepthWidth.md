@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 title: Neural Net design Trade off Depth vs Width
-date: 2021-2-25
+date: 2021-2-26
 category:
   - Blog
 tags:
