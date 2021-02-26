@@ -11,6 +11,7 @@ tags:
   - Math
   - Geometry
   - Performance
+  - Data Driven Methods
 ---
 
 In many applications, sampling some convex region is a subproblem that needs to be done repeatedly, such as Monte-Carlo integration. This post will talk about hit-and-run sampling and apologies, but this will be a code-heavy post. Hit-and-run sampling is a straightforward algorithm where we take a point in the region, pick a random direction, then pick a new point on the line defined by that direction and point inside the region. This region does not need to be defined by linear constraints, such as a circle or an ellipse. Or even some combination of linear and nonlinear constraints. This post talks about the general convex case. There are much faster ways to sample with hit-and-run if you have information on the structure of the region, e.g. polytopic, elliptical, etc. 
