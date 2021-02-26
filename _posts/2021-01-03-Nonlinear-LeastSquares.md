@@ -11,6 +11,7 @@ tags:
   - Python
   - Code
   - Regression
+  - Data Driven Methods
 ---
 
 I have been on a regression kick in the last few days. We have talked about multiple different classes of min norm problems, ridge regression, and least squares, now we will talk about some methods to solve nonlinear least-squares problems, aka nonlinear regression. In the previous methods, there was an assumption that the output variables were a linear function of input parameters, which isn't always the case. Population dynamics and demand response functions are usually nonlinear, and it is important to capture that information.
