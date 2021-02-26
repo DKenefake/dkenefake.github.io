@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 title: Sampling Convex Regions with Hit-and-Run 
-date: 2021-2-23
+date: 2021-2-25
 category:
   - Blog
 tags:
