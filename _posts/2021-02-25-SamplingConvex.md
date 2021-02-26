@@ -31,7 +31,7 @@ def hit_and_run(is_inside, x_0, n_steps:int = 10):
     if numpy.random.rand(1) < extend_forward / (extend_forward + extend_backward):
       x_0 = numpy.random.rand(1)*extend_forward*random_direc + x_0
     else:
-      x_0 = numpy.random.rand(1)*extent_backward*random_direc + x_0
+      x_0 = -numpy.random.rand(1)*extent_backward*random_direc + x_0
       
   return x_0
 ```
