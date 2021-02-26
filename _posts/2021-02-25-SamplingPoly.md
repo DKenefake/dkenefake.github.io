@@ -15,7 +15,7 @@ tags:
 
 As a quick addendum to the [last post](https://dkenefake.github.io/blog/SamplingConvex), I have written up a specialized hit-and-run samlper for full dimensional polytopes $\mathcal{P} = \{x\in\mathcal{R}^n: Ax\leq b\}. For this case, we can drive ```extent``` directly from the polytope bounds.
 
-$$Ax\leq b\rightarrow A(x+td)\leq b\rightarrow t \leq \frac{b_i - (Ax)_i}{(Ad)}, \forall i\in\{1,\dots, n\}, (Ad)_i \geq 0$$
+$$Ax\leq b\rightarrow A(x+td)\leq b\rightarrow t  = \min_{i\in\{1,\dots, n\}, (Ad)_i \geq 0} \frac{b_i - (Ax)_i}{(Ad)} $$
 
 With this new rule, we no longer have to do an iterative procedure to find the extend, meaning we only have two matrix-vector multiplications. In python, the ```extent``` function is the following.
 
