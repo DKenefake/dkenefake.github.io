@@ -11,6 +11,7 @@ tags:
   - Math
   - Geometry
   - Performance
+  - Data Driven Methods
 ---
 
 As a quick addendum to the [last post](https://dkenefake.github.io/blog/SamplingConvex), I have written up a specialized hit-and-run samlper for full dimensional polytopes $\mathcal{P} = \{x\in\mathcal{R}^n: Ax\leq b\}. For this case, we can drive ```extent``` directly from the polytope bounds.
