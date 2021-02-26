@@ -11,6 +11,7 @@ tags:
   - Regression
   - Optimization
   - Visualization
+  - Data Driven Methods
 ---
 
 Ridge regression is a variation of least squares in that it adds a penalty to having large parameter values. This penalty is tunable and will change the model bias-variance trade-off. For a linear unconstrained ridge regression, the objective takes the following form: both norms are taken in the l2 sense.
