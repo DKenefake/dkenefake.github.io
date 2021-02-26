@@ -64,7 +64,7 @@ def hit_and_run(p, x_0, n_steps:int = 10):
    return x_0 
 ```
 
-Now for the benchmarking! I will also compare with the Numba and Numba + ```prange``` versions. We are not longer scaling well with the standard ```prange```!. This is since the subtasks are far too quick to be parallelized effectively. I tried blocking the individual hit-and-run samples as bundles to fix this issue, but I saw no significant speedup. The lack of scaling might be a python language limitation at such small timescales. For the case of hit-and-run sampling on a polytope, we went from 87 msec to 33 usec; this is a speedup of 2600x. In other worse, instead of a calculation taking a month, it now takes ~17 min. This result stresses the importance of using the correct tool for the job, and sometimes making specialized tools is worth it.
+Now for the benchmarking! I will also compare with the Numba and Numba + ```prange``` versions. We are not longer scaling well with the standard ```prange```! This is since the subtasks are far too quick to be parallelized effectively. I tried blocking the individual hit-and-run samples as bundles to fix this issue, but I saw no significant speedup. The lack of scaling might be a python language limitation at such small timescales. For the case of hit-and-run sampling on a polytope, we went from 87 msec to 33 usec; this is a speedup of 2600x. In other worse, instead of a calculation taking a month, it now takes ~17 min. This result stresses the importance of using the correct tool for the job, and sometimes making specialized tools is worth it.
 
 ```
 hit_and_run w/o Numba                       -> 822 us per sample
