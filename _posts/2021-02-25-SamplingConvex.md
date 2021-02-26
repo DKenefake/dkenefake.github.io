@@ -44,7 +44,7 @@ One of the most critical subproblem in hit-and-run sampling is finding how far w
 def extent(is_inside, d:numpy.ndarray, x:numpy.ndarray):
   
   #exponential search initialization
-  dist = 1e-115
+  dist = 1e-15
   
   while is_inside(dist*d + x):
     dist = 2*dist
