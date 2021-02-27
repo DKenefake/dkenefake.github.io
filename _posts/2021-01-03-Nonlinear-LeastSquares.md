@@ -6,7 +6,7 @@ date: 2021-1-3
 category:
   - Blog
 tags:
-  - Optimiaztion
+  - Optimization
   - Math
   - Python
   - Code
