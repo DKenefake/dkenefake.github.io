@@ -4,7 +4,7 @@ title: About Me
 sidebar_link: true
 ---
 
-Howdy! I'm Dustin Kenefake, and I'm a second-year chemical engineering student in the [Pistikopoulos Lab](http://parametric.tamu.edu/) at Texas A&M. My primary research interest involves leveraging optimization for process systems engineering in the space of model predictive control and real-time optimization. In my off time, I like cooking and making beer.  
+Howdy! I'm Dustin Kenefake, and I'm a second-year chemical engineering student in the [Pistikopoulos Lab](http://parametric.tamu.edu/) at Texas A&M. My primary research interest involves leveraging optimization for process systems engineering in the space of model predictive control and real-time optimization. In undergrad I worked in the [Krempner Lab](https://www.depts.ttu.edu/chemistry/Faculty/krempner/) studdying new catalytic systems. In my off time, I like cooking and making beer.  
 
 ## Education
 
@@ -16,11 +16,25 @@ Texas A&M (Aug 2019 - Now)
 
 Texas Tech (Aug 2014 - July 2018)
 
+## Papers and Talks
+
+### Publications
+
+* Multiparametric Programming in Process Systems Engineering: Recent Developments and Path Forward
+* “Inverse” Frustrated Lewis Pairs: An Inverse FLP Approach to the Catalytic Metal Free Hydrogenation of Ketones
+* Interactions of Verkade’s Superbase with Strong Lewis Acids: From Labile Mono- and Binuclear Lewis Acid–Base Complexes to Phosphenium Cations
+
+
+### Presentations
+
+* Integrating Deep Learning and Explicit Model Predictive Control for Advanced Process Control - ChEGSA 8th annual symposium
+* Smart Manufacturing for Monitoring and Control of an Industrial Air Separation Unit - AIChE 2020 Confrence
+
 ## Service
 
 ### Graduate Teaching Assistant 
 
-* CHEN 364 - Kinetics and Reastor Design (Fall 2019)
+* CHEN 364 - Kinetics and Reactor Design (Fall 2019)
 * CHEN 322 - Chemical Engineering Material Science (Spring 2019)
 
 ### Officer Positions
