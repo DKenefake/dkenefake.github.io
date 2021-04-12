@@ -27,8 +27,10 @@ Texas Tech (Aug 2014 - July 2018)
 
 ### Presentations
 
-* Integrating Deep Learning and Explicit Model Predictive Control for Advanced Process Control - ChEGSA 8th annual symposium
+* Integrating Deep Learning and Explicit Model Predictive Control for Advanced Process Control - ChEGSA 8th Annual Symposium
 * Smart Manufacturing for Monitoring and Control of an Industrial Air Separation Unit - AIChE 2020 Confrence
+* Smart Manufacturing for Monitoring and Control of an Industrial Air Separation Unit - ChEGSA 9th Annual Symposium
+* Optimal Control of an Industrial Air Separation plant through Smart Manufacturing and Surrogate Modeling - PSE Advanced Process Modelling Forum 2021
 
 ## Service
 
