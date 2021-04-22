@@ -31,6 +31,7 @@ Texas Tech (Aug 2014 - July 2018)
 * Smart Manufacturing for Monitoring and Control of an Industrial Air Separation Unit - AIChE 2020 Confrence
 * Smart Manufacturing for Monitoring and Control of an Industrial Air Separation Unit - ChEGSA 9th Annual Symposium
 * Optimal Control of an Industrial Air Separation plant through Smart Manufacturing and Surrogate Modeling - PSE Advanced Process Modelling Forum 2021
+* Smart Manufacturing for Chemical Processing: Energy Efficient Operation of Air Separation Unit- CESMII Cross Pollination Workshop - Machine Learning 2021
 
 ## Service
 
