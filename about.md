@@ -55,7 +55,6 @@ Texas Tech (Aug 2014 - July 2018)
 * Optimization - GLPK\Gurobi\CPLEX, Model Predictive Control, Theory of Optimization
 * Modeling\Surrogate Modeling
 * Data Analysis and Visualization
-* Statistics
 
 ### Courses Taken During PhD
 
