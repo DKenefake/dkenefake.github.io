@@ -51,8 +51,8 @@ Texas Tech (Aug 2014 - July 2018)
 ## Skills 
 
 * Programming - Python, C\C++, Java
-* Hysys\gProms
-* Optimization
+* Simulation Tools - Hysys, gProms suite
+* Optimization - GLPK\Gurobi\CPLEX, Model Predictive Control, Theory of Optimization
 * Modeling\Surrogate Modeling
 * Data Analysis and Visualization
 * Statistics
