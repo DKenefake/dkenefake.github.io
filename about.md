@@ -50,12 +50,23 @@ Texas Tech (Aug 2014 - July 2018)
 
 ## Skills 
 
-* Python
-* C\C++
+* Programming - Python, C\C++, Java
 * Hysys\gProms
 * Optimization
-* Modeling
-* Data analysis
+* Modeling\Surrogate Modeling
+* Data Analysis and Visualization
 * Statistics
 
+### Courses Taken During PhD
 
+* Process Analysis 
+* Applications of Thermodynamics
+* Process Safety
+* Lab Saftey
+* Kinetics and Reactor Design
+* Transport Phenomena
+* Optimization II (Math Department)
+* Survey of Optimization (Industrial Engineering Department)
+* Database & Comp Tools for Big Data (Statistics Department)
+* Advanced Process Chemical Optimization I/II
+* Foundations and Methods of Approximation (Math Department)
