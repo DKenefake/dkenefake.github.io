@@ -40,12 +40,17 @@ $$
 \end{pmatrix} = 
 \begin{pmatrix}
 1&0&0\\
-\lambda&0& -1\\
+0&0& -1\\
 0&0&2
 \end{pmatrix}
 \begin{pmatrix}
 x_1\\
 x_2\\
 x_3
+\end{pmatrix} + 
+\begin{pmatrix}
+0\\
+\lambda\\
+0
 \end{pmatrix}
 $$
