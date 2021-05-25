@@ -39,9 +39,9 @@ $$
 \dot{x_3}
 \end{pmatrix} = 
 \begin{pmatrix}
-x_1\\
-\lambda - x_3\\
-2x_3
+1&0&0\\
+\lambda&0& -1\\
+0&0&2
 \end{pmatrix}
 \begin{pmatrix}
 x_1\\
