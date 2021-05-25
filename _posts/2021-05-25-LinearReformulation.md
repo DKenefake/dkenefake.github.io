@@ -28,7 +28,7 @@ $$
 
 However, we can change this by adding a new dimension $x_3 = x_1^2$ and substitution back in to get a linear system with only one extra dimension!
 
-$$\frac{dx_3(t)}{dt} = \frac{d}{dt}x_1^2(t) = 2x_1(t)\frac{dx_1(t)}{dt}x(t)$ = 2 x_1^2(t)$$
+$$\frac{dx_3(t)}{dt} = \frac{d}{dt}x_1^2(t) = 2x_1(t)\frac{dx_1(t)}{dt}x(t) = 2 x_1^2(t)$$
 
 With this we can rewrite $\dot{x_2} = \lambda  - x_1^2(t) = \lambda - x_3$. And now we have a full blown linear system from the nonlinear one!
 
