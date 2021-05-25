@@ -35,12 +35,13 @@ With this we can rewrite $\dot{x_2} = \lambda  - x_1^2(t) = \lambda - x_3$. And 
 $$
 \begin{pmatrix}
 \dot{x_1}\\
-\dot{x_2}
+\dot{x_2}\\
+\dot{x_3}
 \end{pmatrix} = 
 \begin{pmatrix}
-x_1&&\\
-\lambda&& - 1\\
-&&2
+x_1\\
+\lambda - x_3\\
+2x_3
 \end{pmatrix}
 \begin{pmatrix}
 x_1\\
