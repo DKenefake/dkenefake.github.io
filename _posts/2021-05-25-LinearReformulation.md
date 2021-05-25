@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 title: Reformulate Nonlinear Systems to Linear systems
-date: 2021-2-26
+date: 2021-5-25
 category:
   - Blog
 tags:
