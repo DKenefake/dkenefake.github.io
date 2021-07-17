@@ -8,6 +8,7 @@ category:
 tags:
   - Math
   - Performance
+  - C++
 ---
 
 This is a bit of a call back to an [older blog](https://dkenefake.github.io/blog/Fourier_Series_Acceleration) post where we accelerated the Fourier series to converge at least cubically, but we are still left with evaluating an infinite Fourier series, so if we can evaluate that faster, that would be better. There is a way to eschew almost all of the trigonometry calculations when evaluating trigonometric Fourier series with one simple trick. To remember, what we are looking at here is a generic cosine Fourier series.
