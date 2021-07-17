@@ -36,7 +36,7 @@ Here is an example series we will use to test on.
 
 $$S = \sum_{n=1}^\infty \frac{cos(nx)}{n^4+1}$$
 
-Here is an example code for evaluating the above series on an Arduino embedded board, and with benchmarking on an ESP8266 and ESP32, we can see a rough $3x$ speed improvement. On similar code in a desktop processor, we see a $20x$ speed improvement as the compiler is. This is not meant to be an example par excellence of embedded c++ code but a quick realization of the idea.
+Here is an example code for evaluating the above series on an Arduino embedded board, and with benchmarking on an ESP8266 and ESP32, we can see a rough $3x$ speed improvement. On similar code in a desktop processor, we see a $20x$ speed improvement. This is not meant to be an example par excellence of embedded c++ code but a quick realization of the idea.
 
 ```c++
 #include <Arduino.h>
