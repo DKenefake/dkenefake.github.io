@@ -41,6 +41,11 @@ Here is an example code for evaluating the above series on an Arduino embedded b
 ```c++
 #include <Arduino.h>
 
+double series_coeff(long index){
+  double n = double(index);
+  return 1.0/(n*n*n*n + 1.0);
+}
+
 double chebychev_series(double x, long upper){
   
   double t_k2 = 1.0;
@@ -50,10 +55,8 @@ double chebychev_series(double x, long upper){
   double summand = 0.0;
 
   for(long i = 1; i < upper; i++){
-    // generate n^4
-    double n = double(i);
-    
-    summand += t_k1/(n*n*n*n + 1.0);
+
+    summand += series_coeff(i)*t_k1;
     double t_k = b*t_k1 - t_k2;
 
     //update the series
@@ -69,9 +72,7 @@ double cos_series(double x, long upper){
   double summand = 0.0;
 
   for(long i = 1; i < upper; i++){
-    // generate n^4
-    double n = double(i);
-    summand += std::cos(n*x)/(n*n*n*n + 1.0);
+    summand += series_coeff(i)*std::cos(i*x);
   }
 
   return summand;
