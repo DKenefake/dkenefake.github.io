@@ -29,7 +29,7 @@ $$T_1(y) = 1$$
 
 $$T_2(y) = y$$
 
-$$T_n(y) = 2xT_{n-1}(y) - T_{n-2}(y)$$
+$$T_n(y) = 2yT_{n-1}(y) - T_{n-2}(y)$$
 
 Here is an example series we will use to test on.
 
