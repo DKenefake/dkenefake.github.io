@@ -21,13 +21,13 @@ Letting us rewrite the sum in the following way doesn't seem to fix any problem 
 
 $$S = \sum_{n=1}^\infty a_n cos(nx) = \sum_{n=1}^\infty a_n T_n(cos(x))$$
 
-However, this polynomial has a recursive identity known as the three-term relation (a common trait shared with all Jacobi polynomials). So we can relate the next polynomial in the series with the last with a simple multiplication and subtraction operation. We only need to evaluate $cos(x)$ to start the iteration, but we do not need to evaluate special functions the first term.
+However, this polynomial has a recursive identity known as the three-term relation (a common trait shared with all Jacobi polynomials). So we can relate the next polynomial in the series with the last with a simple multiplication and subtraction operation. We only need to evaluate $cos(x)$ to start the iteration, but we do not need to evaluate special functions after the first term.
 
 $$y = cos(x)$$
 
 $$T_1(y) = 1$$
 
-$$T_2(y) = x$$
+$$T_2(y) = y$$
 
 $$T_n(y) = 2xT_{n-1}(y) - T_{n-2}(y)$$
 
