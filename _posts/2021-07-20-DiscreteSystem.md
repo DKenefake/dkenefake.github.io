@@ -44,7 +44,7 @@ $$
 
 The code listing for these is written in Python at the bottom of the post. Care was taken so that it remains numerically stable, and was validated a for the nonsingular case with the following identity.
 
-$$A\int_0^{T} e^{A\tau}d\tau + \mathbf{I} = e^{AT}$$
+$$\left(\int_0^{T} e^{A\tau}d\tau\right)A + \mathbf{I} = e^{AT}$$
 
 ### Example 
 Given a double integrator system defined below, we want to generate the discrete state-space system with a time step equal to 1.
