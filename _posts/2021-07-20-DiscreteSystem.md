@@ -17,18 +17,20 @@ This post is mostly about trying to convert continuous-time systems to discrete-
 Here is the continuous linear time-invariant state-space model; this is, in effect, a linear multivariate ODE with exogenous variables (the u terms).
 
 $$\dot{x}(t) = Ax(t) + Bu(t)$$
+
 $$y(t) = Cx(t) + Du(t)$$
 
 Here is the discrete linear time-invariant state-space model; we can see that this is more or less the same structure, but the difference here is the discrete-time steps.
 
 $$x_+ = A_dx + B_du$$
+
 $$y = Cx + Du$$
 
 Doing some handwaving, we need can do the following operations to generate the matrix parameters $A_d$, $B_d$. Unfortunately, these math operations are nontrivial.
 
 $$A_d = e^{AT}$$
 
-$$B_d = \left(\int_0^{T} e^{A\tau}d\tau\right)B = A^{-1}(A_d - \mathbf{I})B \text{ If A is nonsingluar}$$
+$$B_d = \left(\int_0^{T} e^{A\tau}d\tau\right)B = A^{-1}(A_d - \mathbf{I})B$$
 
 However, when you try to calculate these expressions, the problem with evaluating the integral of the matrix exponential as there is very little software support for evaluating this integral if $A$ is singular. Still, many interesting systems are singular,  like the nobel double integrator. So we can build series expressions for these. There is a matrix exponential in the scipy package.
 
@@ -45,36 +47,38 @@ The code listing for these is written in Python at the bottom of the post.
 ### Example 
 Given a double integrator system defined below, we want to generate the discrete state-space system with a time step equal to 1.
 
-$$A = \begin{matrix}
+$$A = \begin{pmatrix}
 0 & 1\\
 0 & 0
-\end{matrix} \quad B = \begin{matrix}
+\end{pmatrix} \quad B = \begin{pmatrix}
 0\\
 1
-\end{matrix}$$
+\end{pmatrix}$$
 
 To calculate the discrete $A$ matrix, $A_d$, we need to calculate the matrix exponential.
 
-$$A_d = e^{A} = \begin{matrix}
+$$A_d = e^{A} = \begin{pmatrix}
 1 & 1\\
 0 & 1
-\end{matrix}$$
+\end{pmatrix}$$
+
 Since our $A$ matrix is singular, we have to calculate the integral expression.
 
-$$\int_0^1e^{A\tau}d\tau = \begin{matrix}
+$$\int_0^1e^{A\tau}d\tau = \begin{pmatrix}
 1 & 0.5\\
 0 & 1
-\end{matrix}$$
-$$B_d = \int_0^1e^{A\tau}d\tau = \begin{matrix}
+\end{pmatrix}$$
+
+$$B_d = \int_0^1e^{A\tau}d\tau = \begin{pmatrix}
 1 & 0.5\\
 0 & 1
-\end{matrix}\begin{matrix}
+\end{pmatrix}\begin{pmatrix}
 0\\
 1
-\end{matrix}= \begin{matrix}
+\end{pmatrix}= \begin{pmatrix}
 0.5\\
 1
-\end{matrix}$$
+\end{pmatrix}$$
 ### Code
 
 ```python
