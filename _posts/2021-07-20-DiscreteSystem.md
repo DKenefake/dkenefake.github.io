@@ -79,6 +79,7 @@ $$B_d = \int_0^1e^{A\tau}d\tau = \begin{pmatrix}
 0.5\\
 1
 \end{pmatrix}$$
+
 ### Code
 
 ```python
