@@ -71,7 +71,7 @@ $$\int_0^1e^{A\tau}d\tau = \begin{pmatrix}
 0 & 1
 \end{pmatrix}$$
 
-$$B_d = \int_0^1e^{A\tau}d\tau = \begin{pmatrix}
+$$B_d = \int_0^1e^{A\tau}d\tau B = \begin{pmatrix}
 1 & 0.5\\
 0 & 1
 \end{pmatrix}\begin{pmatrix}
@@ -81,6 +81,8 @@ $$B_d = \int_0^1e^{A\tau}d\tau = \begin{pmatrix}
 0.5\\
 1
 \end{pmatrix}$$
+
+Since $A$ is singular we can't use the the nonsingular expression as the inverse does not exist, nor the pseudo-inverse as it gives the wrong answer.
 
 ### Code
 
