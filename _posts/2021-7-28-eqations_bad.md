@@ -46,7 +46,7 @@ I\\
 M^k\\
 M^{2k}\\
 \vdots\\
-\end{bmatrix}^T
+\end{bmatrix}
 $$
 
 However, if you actually wanted to evaluate it, unlike the original algorithm, it is slower and takes asymptotically more memory.  I implemented both in python and benchmarked them to look at the experimental time and space complexity with a polynomial $A\in\mathcal{R}^{200\cross200}$ on the Taylor series of the matrix polynomial. We can see that while both algorithms scale similarly, the Kronecker-based expression is approximately 5 to 6 times slower than evaluating the blocked polynomial with an increasing gap over time. 
