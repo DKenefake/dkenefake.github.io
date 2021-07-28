@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 
+title: Sometimes Pretty Equations aren't that Pretty
 date: 2021-7-20
 category:
   - Blog
