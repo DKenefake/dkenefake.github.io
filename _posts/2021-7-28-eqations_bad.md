@@ -21,7 +21,7 @@ f(X) &= a_0 + a_1X + a_2X^2 + a_3X^3\\
 \end{align*}
 $$
 
-With this blocking structure in place, we only have to evaluate 2 matrix multiplications instead of 3. The results get more dramatic with larger degree polynomials, with scaling in the order of $\mathcal{O}\sqrt{\text{degree}}$ instead of the algorithm based on caching the scales $\mathcal{O}(\text{degree})$.
+With this blocking structure in place, we only have to evaluate 2 matrix multiplications instead of 3. The results get more dramatic with larger degree polynomials, with scaling in the order of $\mathcal{O}(\sqrt{\text{degree}})$ instead of the algorithm based on caching the scales $\mathcal{O}(\text{degree})$.
 
 The Wikipedia page describing it has a nice shorthand expression for this that looks like the following. ($k$ is the size of the blocks)
 
