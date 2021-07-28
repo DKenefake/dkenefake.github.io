@@ -51,11 +51,11 @@ $$
 
 However, if you actually wanted to evaluate it, unlike the original algorithm, it is slower and takes asymptotically more memory.  I implemented both in python and benchmarked them to look at the experimental time and space complexity with a polynomial $A\in\mathcal{R}^{200\cross200}$ on the Taylor series of the matrix polynomial. We can see that while both algorithms scale similarly, the Kronecker-based expression is approximately 5 to 6 times slower than evaluating the blocked polynomial with an increasing gap over time. 
 
-![figure](https://github.com/DKenefake/dkenefake.github.io/blob/master/assets/imgs/poly_eval.png)
+![](https://github.com/DKenefake/dkenefake.github.io/blob/master/assets/imgs/poly_eval.png)
 
 Here we can see two diverging behaviors in memory requirement. This is entirely due to the creation of the middle matrix in the pretty expression that requires $\mathcal{O}(dn^2)$, with $d$ being the degree of the polynomial being evaluated. While the blocked polynomial algorithm only requires $\mathcal{O}(\sqrt{d}n^2)$ storage. My guess as to why the blocked algorithm is increasing in speed relative to the nice expression is that the sheer requirement requires the matrix to be streamed from RAM and not cache, but that is just a guess.  
 
-![figure](https://github.com/DKenefake/dkenefake.github.io/blob/master/assets/imgs/poly_mem.png)
+![](https://github.com/DKenefake/dkenefake.github.io/blob/master/assets/imgs/poly_mem.png)
 
 
 
