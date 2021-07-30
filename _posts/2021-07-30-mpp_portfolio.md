@@ -49,6 +49,6 @@ We plug this into our favorite multiparametric solver (mine is the one I develop
 
 ![](/assets/imgs/portfolio.png)
 
-We successfully recovered the Pareto front! And see the entire range of possible expected returns with our assumptions (no negative positions, only one portfolio, etc.). Since all of the example images of what this should look like are not free use, I will direct you to compare this against expected Pareto fronts. As a side note, this can be used by anyone for any purpose. 
+We successfully recovered the Pareto front! And see the entire range of possible expected returns with our assumptions (no negative positions, only one portfolio, etc.). Since all of the example images of what this should look like are not free use, I will direct you to compare this against expected Pareto fronts avalible on the internet. As a side note, this can be used by anyone for any purpose. 
 
 ![](/assets/imgs/returns.png)
