@@ -34,7 +34,7 @@ S = S@S.T / 1000
 mu = numpy.random.rand(n)/100
 ```
 
-Here is the problem that we are going to be tackling in this post.
+Here is the problem that we are going to be tackling in this post. Some of the constraints have been noticeably modified. This is due to a standard preprocessing pass from the solver that I am using. This modification increases numerical stability for ill-conditioned optimization problems but has nearly no effect in this case.
 
 $$
 \begin{align*}
