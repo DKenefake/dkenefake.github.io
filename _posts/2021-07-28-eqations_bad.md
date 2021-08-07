@@ -23,7 +23,7 @@ $$
 
 With this blocking structure in place, we only have to evaluate 2 matrix multiplications instead of 3. The results get more dramatic with larger degree polynomials, with scaling in the order of $\mathcal{O}(\sqrt{\text{degree}})$ instead of the algorithm based on caching the scales $\mathcal{O}(\text{degree})$, or $\mathcal{O}(\text{degree}^2)$ for the naive version.
 
-The Wikipedia page describing it has a nice shorthand expression for this that looks like the following. ($k$ is the size of the blocks)
+The [Wikipedia page](https://en.wikipedia.org/wiki/Polynomial_evaluation) describing it has a nice shorthand expression for this that looks like the following. ($k$ is the size of the blocks)
 
 $$
 P(M) = \begin{bmatrix}
