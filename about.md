@@ -69,4 +69,4 @@ Texas Tech (Aug 2014 - July 2018)
 * Database & Comp Tools for Big Data (Statistics Department)
 * Advanced Process Chemical Optimization I/II
 * Foundations and Methods of Approximation (Math Department)
-* Time Series Analysis (Stat Department)
+* Time Series Analysis (Statistics Department)
