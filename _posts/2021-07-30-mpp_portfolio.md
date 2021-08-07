@@ -12,9 +12,9 @@ tags:
   - Finance
 ---
 
-I have been looking at a financial application to optimization; they are fairly interesting and not something that I have seen before. My research is mainly focused on the control, scheduling, and design of physical assets, not financial assets. So I took a stab at solving the classical Markowitz Portfolio optimization problem via multiparametric programming. I chose to do this as it aligns with my research interests (multiparametric programming rise up!). Using multiparametric programming, we extract an explicit form of the optimal Pareto front between risk and return.
+I have been looking at a financial application to optimization; they are fairly interesting and not something that I have seen before. My research is mainly focused on the control, scheduling, and design of physical assets, not financial assets. So I took a stab at solving the classical Markowitz Portfolio optimization problem via (multiparametric programming)[https://en.wikipedia.org/wiki/Parametric_programming]. I chose to do this as it aligns with my research interests (multiparametric programming rise up!). Using multiparametric programming, we extract an explicit form of the optimal Pareto front between risk and return.
 
-The Markowitz portfolio optimization problem is given as follows, where $\Sigma$ is the covariance of the commodities. In this example, we are considering only positive definite covariance matrices. $R^* $ is the return we wish to get, $\mu$ is the expected rate of return. The constraints are effectively specifying a return rate that we want, saying that the composition of our portfolio must sum to one (we only have one portfolio!) and that we can't have negative positions in any commodity. 
+The (Markowitz portfolio optimization)[https://en.wikipedia.org/wiki/Modern_portfolio_theory] problem is given as follows, where $\Sigma$ is the covariance of the commodities. In this example, we are considering only positive definite covariance matrices. $R^* $ is the return we wish to get, $\mu$ is the expected rate of return. The constraints are effectively specifying a return rate that we want, saying that the composition of our portfolio must sum to one (we only have one portfolio!) and that we can't have negative positions in any commodity. 
 
 $$\begin{align}
 \min \frac{1}{2} w^T & \Sigma w\\
