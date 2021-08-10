@@ -1,0 +1,137 @@
+---
+layout: post
+mathjax: true
+title: mp-LE, explicit solutions
+date: 2021-8-5
+category:
+  - Blog
+tags:
+  - Math
+  - Optimization
+  - Python
+---
+
+
+
+A recurring theme that pops up in multiparametric programming is solving linear equations with a multiparametric right hand side (RHS), which is an equation of the following form.
+
+$$
+\begin{align*}
+  Ax = b(\theta)
+\end{align*}
+$$
+
+The fully determined version of this has been treated rather explicitly in literature with a rather simple solution. Just compute the inverse of $A$ and then apply it to $b(\theta)$ whenever you realize $\theta$ to calculate an RHS. 
+
+$$
+\begin{align*}
+  Ax &= b(\theta)\\
+  A^{-1}Ax &= A^{-1}b(\theta)\\
+  x &= A^{-1}b(\theta)
+\end{align*}
+$$
+
+However, what is not well covered in the underdetermined case, where $Ax = b(\theta)$ is underdetermined. The problem with resuing the above strategy is that $A$ does not have an inverse! So we must find an alternative path! First, let's look at how underdetermined linear systems (without multiparametric RHS) are usually solved.
+
+There are a few main methods to do this, but we will discuss the nullspace method, least-squares method, and the pseudo-inverse.
+
+### Method 1. Nullspace
+The idea here is to find the [nullspace](https://en.wikipedia.org/wiki/Kernel_(linear_algebra)) of our system and then project from this space.
+
+$$
+\begin{align*}
+  \text{Given }Ax &= b\\
+  N = \text{Nullspace of } A\\
+  x(y) = x_0 + Ny, \forall y\\
+  Ax(y) = b
+\end{align*}
+$$
+
+So a parameterized solution can be found based on some initial feasible solution $x_0$ (which can be found from the following method).
+
+### Method 2. Regularization
+
+The second method is by solving the following optimization problem, and the eagle-eyed reader might recognize this as an $\mathcal{L}_ 2$ minimization problem which we learned how to solve in [this post](https://dkenefake.github.io/blog/Constrained_Regression).
+
+$$
+\begin{align*}
+\min \quad &x^2\\
+\text{s.t. } Ax = b
+\end{align*}
+$$
+
+This can be used to find the $x_0$ from the previous problem.
+
+### Method 3. Moore-Penrose Inverse
+
+The third method is by calculating the [Moore-Penrose inverse](https://en.wikipedia.org/wiki/Moore%E2%80%93Penrose_inverse), also known as the pseudo-inverse, of a matrix $A^{\dagger}$ (always exists) and then applying that to the RHS. This is identical to the above method, but it also gives a matrix that we can freely apply as a function on the RHS.
+
+$$
+\begin{align*}
+Ax = b\\
+A^{\dagger}Ax = A^{\dagger}b\\
+x_0 = A^{\dagger}b
+\end{align*}
+$$
+
+
+### Underdetermined mp-RHS Linear Equations
+
+Here we will say that $b(\theta)$ is a linear function of $\theta$ in the following way, with $F$ being a matrix of appropriate size.
+
+$$
+\begin{align*}
+  b(\theta)&= b + F\theta
+\end{align*}
+$$
+
+So we can express out mp-LE as the following. 
+
+$$
+\begin{align*}
+  Ax = b + F\theta
+\end{align*}
+$$
+
+We can take Method 3 to obtain an initial feasible solution. Here it is important to notice that this is a function of $\theta$!
+
+$$
+\begin{align*}
+  Ax_0 &= b + F\theta\\
+  x_0(\theta) &= A^{\dagger}b + A^{\dagger}F\theta
+\end{align*}
+$$
+
+Now that we have our initial feasible point (equal to the min norm solution in Method 2) we can use Method 1 to construct a feasible space for all possible solutions. This leads to the explicit solution to this mp-LE.
+
+$$
+\begin{align*}
+  x(\theta, y) = x_0(\theta) + Ny\\
+  x(\theta, y) = A^{\dagger}b + A^{\dagger}F\theta + Ny\\
+\end{align*}
+$$
+
+So we can plug in any $y$ to generate valid solutions, and with $y=\hat{0}$ we can generate the min norm solution. All we need to be able to do is calculate the nullspace and pseudo-inverse of $A$. This would be important for aspects where solving equality constrained multiparametric least-squares problems or sampling inside of a multiparametric subs space. The code to benchmark this is the following. 
+
+```python
+import numpy
+from scipy.linalg import null_space
+
+A = numpy.random.randn(20,200)
+b = numpy.random.randn(20, 1)
+F = numpy.random.randn(20, 3)
+
+N = null_space(A)
+A_dagger = numpy.linalg.pinv(A)
+FA_dagger = A_dagger@F
+
+def x_0(theta):
+  return A_dagger @b + FA_dagger@theta
+
+theta = numpy.random.rand(3,1)
+b_theta = b + F@theta
+%timeit numpy.linalg.lstsq(A, b_theta, rcond = None)
+%timeit x_0(theta)
+```
+
+The results are 198 uSec for the NumPy function and 3.39 uSec for evaluating the explicit solution. While the time to generate the null space, pseudo inverse, and helper matrix takes 1.35 mSec on average for this example. Meaning there is a net time saving after 7 evaluations when compared to solving the implicit underdetermined system. It does take significantly more memory; if this is a viable trade-off then, this approach can be used to speed up calculations of this type.
