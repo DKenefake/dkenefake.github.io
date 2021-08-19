@@ -15,21 +15,19 @@ This will be a quick post. The active set method is based on finding the optimal
 
 Contrary to what the [wikipedia article](https://en.wikipedia.org/wiki/Active-set_method) states, we do not need a feasible starting point to initiate the algorithm if we modify it slightly. Note, this will not handle infeasible problems, and additional checks will need to be used.
 
-$$
-\begin{enumerate}
-  \item Find unconstrained minimizer, assign that to x (or any vector)
-  \item Add most violated constraint to active set if a violated constraint exists
-  \item solve resulting KKT system
-  \item remove constraints with negative Lagrange multipliers
-  \item if the active set was changed in this iteration go back to 2 else optimal
-\end{enumerate}
-$$
+1. Find unconstrained minimizer, assign that to x
+2. Active set iteration
+  1. Add most violated constraint to active set if a violated constraint exists
+  2. Solve resulting KKT system
+  3. Remove constraints from active set that have negative Lagrange multipliers
+  4. If the active set was changed in this iteration goto 2.1 else goto 3
+3. Optimal Solution Found
 
 This is rather straightforward to code up for specific problem types. Here we have some example code for a convex quadratic problem with inequality constraints. The code for this will be at the bottom of this post. There are much more efficient implementations of active set methods that take advantage of problem structure and matrix factorizations. This is to show the idea. 
 
 $$
 \begin{align}
-\min f(x) = \frac{1}{2}x^TQx + cx\\
+\min f(x) = \frac{1}{2}&x^TQx + cx\\
 \text{s.t. }& Ax \leq b
 \end{align}
 $$
