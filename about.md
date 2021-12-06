@@ -19,19 +19,22 @@ Texas Tech (Aug 2014 - July 2018)
 ## Papers and Talks
 
 ### Publications
-
-* Multiparametric Programming in Process Systems Engineering: Recent Developments and Path Forward
-* “Inverse” Frustrated Lewis Pairs: An Inverse FLP Approach to the Catalytic Metal Free Hydrogenation of Ketones
-* Interactions of Verkade’s Superbase with Strong Lewis Acids: From Labile Mono- and Binuclear Lewis Acid–Base Complexes to Phosphenium Cations
+1. PPOPT - Multiparametric Solver for Explicit MPC (submitted)
+2. Multiparametric Programming in Process Systems Engineering: Recent Developments and Path Forward
+3. “Inverse” Frustrated Lewis Pairs: An Inverse FLP Approach to the Catalytic Metal Free Hydrogenation of Ketones
+4. Interactions of Verkade’s Superbase with Strong Lewis Acids: From Labile Mono- and Binuclear Lewis Acid–Base Complexes to Phosphenium Cations
 
 
 ### Presentations
 
-* Integrating Deep Learning and Explicit Model Predictive Control for Advanced Process Control - ChEGSA 8th Annual Symposium
-* Smart Manufacturing for Monitoring and Control of an Industrial Air Separation Unit - AIChE 2020 Confrence
-* Smart Manufacturing for Monitoring and Control of an Industrial Air Separation Unit - ChEGSA 9th Annual Symposium
-* Optimal Control of an Industrial Air Separation plant through Smart Manufacturing and Surrogate Modeling - PSE Advanced Process Modelling Forum 2021
-* Smart Manufacturing for Chemical Processing: Energy Efficient Operation of Air Separation Unit- CESMII Cross Pollination Workshop - Machine Learning 2021
+1. Integrating Deep Learning and Explicit Model Predictive Control for Advanced Process Control - ChEGSA 8th Annual Symposium
+2. Smart Manufacturing for Monitoring and Control of an Industrial Air Separation Unit - AIChE 2020 Fall Confrence
+3. Smart Manufacturing for Monitoring and Control of an Industrial Air Separation Unit - ChEGSA 9th Annual Symposium
+4. Optimal Control of an Industrial Air Separation plant through Smart Manufacturing and Surrogate Modeling - PSE Advanced Process Modelling Forum 2021
+5. Smart Manufacturing for Chemical Processing: Energy Efficient Operation of Air Separation Unit- CESMII Cross Pollination Workshop - Machine Learning 2021
+6. PPOPT (Python Parametric OPTimization) - a Python Package for Solving Multiparametric Optimization Problems with Parallel Algorithms - AIChE 2021 Fall Confrence
+7. Smart Manufacturing for Monitoring and Control of an Industrial Air Separation Unit - AIChE 2021 Fall Confrence 
+8. Modeling, Simulation and Control of an Air Separation Plant - 2021 Texas A&M Energy Confrence 
 
 ## Service
 
