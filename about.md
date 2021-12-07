@@ -19,10 +19,13 @@ Texas Tech (Aug 2014 - July 2018)
 ## Papers and Talks
 
 ### Publications
-1. PPOPT - Multiparametric Solver for Explicit MPC (submitted)
-2. Multiparametric Programming in Process Systems Engineering: Recent Developments and Path Forward
-3. “Inverse” Frustrated Lewis Pairs: An Inverse FLP Approach to the Catalytic Metal Free Hydrogenation of Ketones
-4. Interactions of Verkade’s Superbase with Strong Lewis Acids: From Labile Mono- and Binuclear Lewis Acid–Base Complexes to Phosphenium Cations
+
+1. [“Inverse” Frustrated Lewis Pairs: An Inverse FLP Approach to the Catalytic Metal Free Hydrogenation of Ketones](https://doi.org/10.1002/chem.201804370) - Chemistry, A European Journal
+2. [Interactions of Verkade’s Superbase with Strong Lewis Acids: From Labile Mono- and Binuclear Lewis Acid–Base Complexes to Phosphenium Cations](https://doi.org/10.1021/acs.inorgchem.7b01719) - ACS Inorganic Chemistry
+3. [Multiparametric Programming in Process Systems Engineering: Recent Developments and Path Forward](https://doi.org/10.3389/fceng.2020.620168) - Fronieres of Chemical Engineering
+4. PPOPT - Multiparametric Solver for Explicit MPC (submitted) - Excape 32
+5. Multiparamatric Linear and Quadratic Programming (submitted) - Encyclopedia of Optimization
+6. Multiparamatric Mixed Integer Linear and Multiparametric Mixed Integer Quadratic Programming (submitted) - Encyclopedia of Optimization 
 
 
 ### Presentations
@@ -42,6 +45,7 @@ Texas Tech (Aug 2014 - July 2018)
 
 * CHEN 364 - Kinetics and Reactor Design (Fall 2019)
 * CHEN 322 - Chemical Engineering Material Science (Spring 2019)
+* CHEN 656 - Advanced Process Optimization (Spring 2022)
 
 ### Officer Positions
 
