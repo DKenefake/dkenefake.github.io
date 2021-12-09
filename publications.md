@@ -9,18 +9,31 @@ Here are the papers to which I've contributed. The titles for accepted papers ar
 ## Submitted
 
 ### PPOPT - Multiparametric Solver for Explicit MPC (submitted)
+*Excape 32 - Computer Aided Chemical Engineering* 2022
 **Dustin Kenefake**, Efstratios N. Pistikopoulos
 
 ### Multi-parametric linear and quadratic programming
+
+*Encyclopedia of Optimization* - TBD
+
 **Dustin Kenefake**, Efstratios N. Pistikopoulos, Styliani Avraamidou, Nikolaos A. Diangelakis, Iosif Pappas
 
 ### Multi-parametric mixed-integer linear and quadratic programming
+
+*Encyclopedia of Optimization* - TBD
+
 **Dustin Kenefake**, Efstratios N. Pistikopoulos, Styliani Avraamidou, Nikolaos A. Diangelakis, Iosif Pappas
 
 ### Continuous and mixed-integer linear and quadratic multilevel optimization through multi-parametric programming
+
+*Encyclopedia of Optimization* - TBD
+
 Efstratios N. Pistikopoulos, Styliani Avraamidou, Nikolaos A. Diangelakis, Iosif Pappas,  **Dustin Kenefake**
 
 ### Multi-parametric nonlinear programming
+
+*Encyclopedia of Optimization* - TBD
+
 Efstratios N. Pistikopoulos, Styliani Avraamidou, Nikolaos A. Diangelakis, Iosif Pappas,  **Dustin Kenefake**
 
 ## 2021
