@@ -9,7 +9,9 @@ Here are the papers to which I've contributed. The titles for accepted papers ar
 ## Submitted
 
 ### PPOPT - Multiparametric Solver for Explicit MPC (submitted)
+
 *Excape 32 - Computer Aided Chemical Engineering* 2022
+
 **Dustin Kenefake**, Efstratios N. Pistikopoulos
 
 ### Multi-parametric linear and quadratic programming
