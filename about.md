@@ -40,8 +40,8 @@ Here are some highligts, click [here](https://dkenefake.github.io/publications) 
 
 ## Software Contributions
 
-* PPOPT (Lead Developer)
-* POP (Maintainer)
+* [PPOPT](https://pypi.org/project/ppopt/) (Lead Developer)
+* [POP](https://parametric.tamu.edu/POP/) (Maintainer)
 
 ## Service
 
