@@ -22,10 +22,12 @@ Texas Tech (Aug 2014 - July 2018)
 
 1. [“Inverse” Frustrated Lewis Pairs: An Inverse FLP Approach to the Catalytic Metal Free Hydrogenation of Ketones](https://doi.org/10.1002/chem.201804370) - Chemistry, A European Journal
 2. [Interactions of Verkade’s Superbase with Strong Lewis Acids: From Labile Mono- and Binuclear Lewis Acid–Base Complexes to Phosphenium Cations](https://doi.org/10.1021/acs.inorgchem.7b01719) - ACS Inorganic Chemistry
-3. [Multiparametric Programming in Process Systems Engineering: Recent Developments and Path Forward](https://doi.org/10.3389/fceng.2020.620168) - Fronieres of Chemical Engineering
+3. [Multiparametric Programming in Process Systems Engineering: Recent Developments and Path Forward](https://doi.org/10.3389/fceng.2020.620168) - Frontiers of Chemical Engineering
 4. PPOPT - Multiparametric Solver for Explicit MPC (submitted) - Excape 32
-5. Multiparamatric Linear and Quadratic Programming (submitted) - Encyclopedia of Optimization
+5. Multiparamatric Linear and Multiparametric Quadratic Programming (submitted) - Encyclopedia of Optimization
 6. Multiparamatric Mixed Integer Linear and Multiparametric Mixed Integer Quadratic Programming (submitted) - Encyclopedia of Optimization 
+7. Multi-parametric mixed-integer linear and quadratic programming, including multi-parametric quadratically constrained quadratic programming (submitted) - Encyclopedia of Optimization
+8. Continuous and mixed-integer linear and quadratic multilevel optimization through multi-parametric programming (submitted) - Encyclopedia of Optimization
 
 
 ### Presentations
