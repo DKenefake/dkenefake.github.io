@@ -14,7 +14,7 @@ Here are the papers to which I've contributed. The titles for accepted papers ar
 ### Multi-parametric linear and quadratic programming
 Efstratios N. Pistikopoulos, Styliani Avraamidou, Nikolaos A. Diangelakis, Iosif Pappas,  **Dustin Kenefake**
 
-### Multi-parametric mixed-integer linear and quadratic programming, including multi-parametric quadratically constrained quadratic programming
+### Multi-parametric mixed-integer linear and quadratic programming
 Efstratios N. Pistikopoulos, Styliani Avraamidou, Nikolaos A. Diangelakis, Iosif Pappas,  **Dustin Kenefake**
 
 ### Continuous and mixed-integer linear and quadratic multilevel optimization through multi-parametric programming
