@@ -35,9 +35,13 @@ Iosif Pappas, **Dustin Kenefake**, Baris Burnak, Styliani Avraamidou, Hari S. Ga
 ## 2018
 ### [“Inverse” Frustrated Lewis Pairs: An Inverse FLP Approach to the Catalytic Metal Free Hydrogenation of Ketones](https://doi.org/10.1002/chem.201804370)
 
+*Chemistry, A European Journal* 2018
+
 Suresh Mummadi, Amandeep Brar, Guoqiang Wang, **Dustin Kenefake**, Rony Diaz, Daniel K. Unruh, Shuhua Li, Clemens Krempner
 
 ## 2017
 ### [Interactions of Verkade’s Superbase with Strong Lewis Acids: From Labile Mono- and Binuclear Lewis Acid–Base Complexes to Phosphenium Cations](https://doi.org/10.1021/acs.inorgchem.7b01719)
+
+*ACS Inorganic Chemistry* 2017
 
 Suresh Mummadi, **Dustin Kenefake**, Rony Diaz, Daniel K. Unruh, and Clemens Krempner
