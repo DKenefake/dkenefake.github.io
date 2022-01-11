@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 title: Active Set Optimization Methods
-date: 2021-8-18
+date: 2021-08-18
 category:
   - Blog
 tags:
