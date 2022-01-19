@@ -15,7 +15,7 @@ As it turns out, Rust is a delight to program in (after you are done fighting th
 
 An example of this duplication can be seen here; in the C++ code, I only have to define one templated state struct (with a specialization). So technically, if I used this object in any other way than the specific way I used it, then according to the C++ standard, I would be in [undefined behavior land](https://en.cppreference.com/w/cpp/language/union#:~:text=It's%20undefined%20behavior%20to%20read,inactive%20members%20of%20a%20union.&text=Each%20member%20is%20allocated%20as,only%20member%20of%20the%20class.). 
 
-```C++	
+```cpp	
 template<int N>
 struct prng_state {
 	static_assert(N > 0, "prng_state must have a postive amount of memory, for prng_state<N> N >=1 ");
