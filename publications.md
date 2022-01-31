@@ -12,7 +12,7 @@ Here are the papers to which I've contributed. The titles for accepted papers ar
 
 *Journal of Advanced Manufacturing and Processing*
 
-Dustin Kenefake, Iosif Pappas, Styliani Avraamidou, Burcu Beykal, Hari S. Ganesh , Yanan Cao, Yajun Wang, Joannah Otashu, Simon Leyland, Jesus Flores-Cerrillo,Efstratios N. Pistikopoulos
+**Dustin Kenefake**, Iosif Pappas, Styliani Avraamidou, Burcu Beykal, Hari S. Ganesh , Yanan Cao, Yajun Wang, Joannah Otashu, Simon Leyland, Jesus Flores-Cerrillo,Efstratios N. Pistikopoulos
 
 ### Multi-parametric linear and quadratic programming
 
