@@ -8,11 +8,11 @@ Here are the papers to which I've contributed. The titles for accepted papers ar
 
 ## Submitted
 
-### PPOPT - Multiparametric Solver for Explicit MPC (submitted)
+### A Smart Manufactoring Strategy for Multi-Parametric Model Predictive Control in Air Separation Systems
 
-*Excape 32 - Computer Aided Chemical Engineering* 2022
+*Journal of Advanced Manufacturing and Processing*
 
-**Dustin Kenefake**, Efstratios N. Pistikopoulos
+Dustin Kenefake, Iosif Pappas, Styliani Avraamidou, Burcu Beykal, Hari S. Ganesh , Yanan Cao, Yajun Wang, Joannah Otashu, Simon Leyland, Jesus Flores-Cerrillo,Efstratios N. Pistikopoulos
 
 ### Multi-parametric linear and quadratic programming
 
@@ -37,6 +37,14 @@ Efstratios N. Pistikopoulos, Styliani Avraamidou, Nikolaos A. Diangelakis, Iosif
 *Encyclopedia of Optimization* - TBD
 
 Efstratios N. Pistikopoulos, Styliani Avraamidou, Nikolaos A. Diangelakis, Iosif Pappas,  **Dustin Kenefake**
+
+## Accepted
+
+### PPOPT - Multiparametric Solver for Explicit MPC (submitted)
+
+*Excape 32 - Computer Aided Chemical Engineering* 2022
+
+**Dustin Kenefake**, Efstratios N. Pistikopoulos
 
 ## 2021
 
