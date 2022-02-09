@@ -4,7 +4,7 @@ title: About Me
 sidebar_link: true
 ---
 
-Howdy! I'm Dustin Kenefake, and I'm a second-year chemical engineering student in the [Pistikopoulos Lab](http://parametric.tamu.edu/) at Texas A&M. My primary research interest involves leveraging optimization for process systems engineering in the space of model predictive control and real-time optimization. In undergrad I worked in the [Krempner Lab](https://www.depts.ttu.edu/chemistry/Faculty/krempner/) studdying new catalytic systems. In my off time, I like cooking and making beer.  
+Howdy! I'm Dustin Kenefake, and I'm a second-year chemical engineering student in the [Pistikopoulos Lab](http://parametric.tamu.edu/) at Texas A&M. My primary research interest involves leveraging optimization for process systems engineering in the space of model predictive control and real-time optimization. In undergrad I worked in the [Krempner Lab](https://www.depts.ttu.edu/chemistry/Faculty/krempner/) studying new catalytic systems. In my off time, I like to cook and make beer.  
 
 ## Education
 
@@ -37,6 +37,7 @@ Here are some highligts, click [here](https://dkenefake.github.io/publications) 
 6. PPOPT (Python Parametric OPTimization) - a Python Package for Solving Multiparametric Optimization Problems with Parallel Algorithms - AIChE 2021 Fall Confrence
 7. Smart Manufacturing for Monitoring and Control of an Industrial Air Separation Unit - AIChE 2021 Fall Confrence 
 8. Modeling, Simulation and Control of an Air Separation Plant - 2021 Texas A&M Energy Confrence 
+9. 
 
 ## Software Contributions
 
