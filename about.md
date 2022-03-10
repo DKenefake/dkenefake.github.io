@@ -24,8 +24,7 @@ Here are some highligts, click [here](https://dkenefake.github.io/publications) 
 
 1. [“Inverse” Frustrated Lewis Pairs: An Inverse FLP Approach to the Catalytic Metal Free Hydrogenation of Ketones](https://doi.org/10.1002/chem.201804370) - Chemistry, A European Journal
 2. [Multiparametric Programming in Process Systems Engineering: Recent Developments and Path Forward](https://doi.org/10.3389/fceng.2020.620168) - Frontiers of Chemical Engineering
-3. PPOPT - Multiparametric Solver for Explicit MPC (submitted) - Excape 32
-5. Multiparamatric Linear and Multiparametric Quadratic Programming (submitted) - Encyclopedia of Optimization
+3. PPOPT - Multiparametric Solver for Explicit MPC (accepted) - Excape 32
 
 ### Presentations
 
@@ -37,7 +36,7 @@ Here are some highligts, click [here](https://dkenefake.github.io/publications) 
 6. PPOPT (Python Parametric OPTimization) - a Python Package for Solving Multiparametric Optimization Problems with Parallel Algorithms - AIChE 2021 Fall Confrence
 7. Smart Manufacturing for Monitoring and Control of an Industrial Air Separation Unit - AIChE 2021 Fall Confrence 
 8. Modeling, Simulation and Control of an Air Separation Plant - 2021 Texas A&M Energy Confrence 
-9. 
+9. Smart Manufacturing for Chemical Processing: Energy Efficient Operation of Air Separation Unit - CESMII Cross Pollination Workshop - Projects 2022
 
 ## Software Contributions
 
@@ -62,7 +61,7 @@ Here are some highligts, click [here](https://dkenefake.github.io/publications) 
 
 ## Skills 
 
-* Programming - Python, C\C++, Java
+* Programming - Python, C\C++, Java, Rust
 * Simulation Tools - Hysys, gProms suite
 * Optimization - GLPK\Gurobi\CPLEX, Model Predictive Control, Theory of Optimization
 * Modeling\Surrogate Modeling
