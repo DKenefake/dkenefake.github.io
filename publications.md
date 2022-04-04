@@ -4,7 +4,7 @@ title: Publications
 sidebar_link: true
 ---
 
-Here are the papers to which I've contributed. The titles for accepted papers are clickable and will bring you to the paper.
+Here are the papers to which I've contributed. The titles for published papers are clickable and will bring you to the paper.
 
 ## Submitted
 
@@ -14,37 +14,44 @@ Here are the papers to which I've contributed. The titles for accepted papers ar
 
 **Dustin Kenefake**, Iosif Pappas, Styliani Avraamidou, Burcu Beykal, Hari S. Ganesh , Yanan Cao, Yajun Wang, Joannah Otashu, Simon Leyland, Jesus Flores-Cerrillo,Efstratios N. Pistikopoulos
 
-### Multi-parametric linear and quadratic programming
+### Multi-parametric Linear and Quadratic Programming
 
 *Encyclopedia of Optimization* - TBD
 
-**Dustin Kenefake**, Efstratios N. Pistikopoulos, Styliani Avraamidou, Nikolaos A. Diangelakis, Iosif Pappas
+**Dustin Kenefake**, Iosif Pappas, Nikolaos A. Diangelakis, Styliani Avraamidou, Richard Oberdieck, Efstratios N. Pistikopoulos
 
-### Multi-parametric mixed-integer linear and quadratic programming
-
-*Encyclopedia of Optimization* - TBD
-
-**Dustin Kenefake**, Efstratios N. Pistikopoulos, Styliani Avraamidou, Nikolaos A. Diangelakis, Iosif Pappas
-
-### Continuous and mixed-integer linear and quadratic multilevel optimization through multi-parametric programming
+### Multi-parametric Mixed-integer Linear and Mixed-integer Quadratic Programming
 
 *Encyclopedia of Optimization* - TBD
 
-Efstratios N. Pistikopoulos, Styliani Avraamidou, Nikolaos A. Diangelakis, Iosif Pappas,  **Dustin Kenefake**
+**Dustin Kenefake**, Iosif Pappas, Nikolaos A. Diangelakis, Styliani Avraamidou, Richard Oberdieck, Efstratios N. Pistikopoulos
 
-### Multi-parametric nonlinear programming
+### Continuous and Mixed-integer Linear and Quadratic Multilevel Optimization through Multi-parametric Programming
 
 *Encyclopedia of Optimization* - TBD
 
-Efstratios N. Pistikopoulos, Styliani Avraamidou, Nikolaos A. Diangelakis, Iosif Pappas,  **Dustin Kenefake**
+Styliani Avraamidou,  Nikolaos A. Diangelakis, Iosif Pappas, **Dustin Kenefake**, Richard Oberdieck, Efstratios N. Pistikopoulos,   
+
+### Multi-parametric Nonlinear Programming
+
+*Encyclopedia of Optimization* - TBD
+
+Iosif Pappas,  Nikolaos A. Diangelakis, **Dustin Kenefake**, Styliani Avraamidou, Richard Oberdieck, Efstratios N. Pistikopoulos,   
+
 
 ## Accepted
 
-### PPOPT - Multiparametric Solver for Explicit MPC (submitted)
+### PPOPT - Multiparametric Solver for Explicit MPC
 
 *Excape 32 - Computer Aided Chemical Engineering* 2022
 
 **Dustin Kenefake**, Efstratios N. Pistikopoulos
+
+### A Software Prototype for Synthesis of Operable Process Intensification Systems
+*Synthesis and Operability Strategies for Computer-Aided Process Intensification* - 2022
+
+Shivam Vedant, Mary R. Atencio, Yuhe Tian, Moustafa Ali, **Dustin Kenefake**, Iosif Pappas, Efstratios N. Pistikopoulos
+
 
 ## 2021
 
