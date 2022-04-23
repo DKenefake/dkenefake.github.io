@@ -8,12 +8,6 @@ Here are the papers to which I've contributed. The titles for published papers a
 
 ## Submitted
 
-### A Smart Manufactoring Strategy for Multi-Parametric Model Predictive Control in Air Separation Systems
-
-*Journal of Advanced Manufacturing and Processing*
-
-**Dustin Kenefake**, Iosif Pappas, Styliani Avraamidou, Burcu Beykal, Hari S. Ganesh , Yanan Cao, Yajun Wang, Joannah Otashu, Simon Leyland, Jesus Flores-Cerrillo,Efstratios N. Pistikopoulos
-
 ### Multi-parametric Linear and Quadratic Programming
 
 *Encyclopedia of Optimization* - TBD
@@ -52,6 +46,11 @@ Iosif Pappas,  Nikolaos A. Diangelakis, **Dustin Kenefake**, Styliani Avraamidou
 
 Shivam Vedant, Mary R. Atencio, Yuhe Tian, Moustafa Ali, **Dustin Kenefake**, Iosif Pappas, Efstratios N. Pistikopoulos
 
+### A Smart Manufactoring Strategy for Multi-Parametric Model Predictive Control in Air Separation Systems
+
+*Journal of Advanced Manufacturing and Processing*
+
+**Dustin Kenefake**, Iosif Pappas, Styliani Avraamidou, Burcu Beykal, Hari S. Ganesh , Yanan Cao, Yajun Wang, Joannah Otashu, Simon Leyland, Jesus Flores-Cerrillo, Efstratios N. Pistikopoulos
 
 ## 2021
 
