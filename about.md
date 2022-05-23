@@ -81,3 +81,4 @@ Here are some highligts, click [here](https://dkenefake.github.io/publications) 
 * Advanced Process Chemical Optimization I/II
 * Foundations and Methods of Approximation (Math Department)
 * Time Series Analysis (Statistics Department)
+* Heuristic Optimization (Industrial Engineering Department) [attended]
