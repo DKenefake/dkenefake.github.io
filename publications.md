@@ -32,18 +32,20 @@ Styliani Avraamidou,  Nikolaos A. Diangelakis, Iosif Pappas, **Dustin Kenefake**
 
 Iosif Pappas,  Nikolaos A. Diangelakis, **Dustin Kenefake**, Styliani Avraamidou, Richard Oberdieck, Efstratios N. Pistikopoulos,   
 
+### A Partial Multiparametric Programming method for Model Predictive Control
 
-## Accepted
+*FOCAPO2023* - TBD
 
-### PPOPT - Multiparametric Solver for Explicit MPC
+**Dustin Kenefake**, Sahithi Srijana Akundi, Efstratios N. Pistikopoulos
 
-*Excape 32 - Computer Aided Chemical Engineering* 2022
+## 2022
+
+### [PPOPT - Multiparametric Solver for Explicit MPC](https://www.sciencedirect.com/science/article/abs/pii/B9780323958790502137?via%3Dihub)
+
+*Escape 32 - Computer Aided Chemical Engineering* 2022
 
 **Dustin Kenefake**, Efstratios N. Pistikopoulos
 
-
-
-## 2022
 
 ### [A Smart Manufacturing Strategy for Multi-Parametric Model Predictive Control in Air Separation Systems](https://aiche.onlinelibrary.wiley.com/doi/abs/10.1002/amp2.10120)
 
@@ -78,4 +80,4 @@ Suresh Mummadi, Amandeep Brar, Guoqiang Wang, **Dustin Kenefake**, Rony Diaz, Da
 
 *ACS Inorganic Chemistry*
 
-Suresh Mummadi, **Dustin Kenefake**, Rony Diaz, Daniel K. Unruh, and Clemens Krempner
+Suresh Mummadi, **Dustin Kenefake**, Rony Diaz, Daniel K. Unruh, Clemens Krempner
