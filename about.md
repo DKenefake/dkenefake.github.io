@@ -24,7 +24,7 @@ Here are some highligts, click [here](https://dkenefake.github.io/publications) 
 
 1. [“Inverse” Frustrated Lewis Pairs: An Inverse FLP Approach to the Catalytic Metal Free Hydrogenation of Ketones](https://doi.org/10.1002/chem.201804370) - Chemistry, A European Journal
 2. [Multiparametric Programming in Process Systems Engineering: Recent Developments and Path Forward](https://doi.org/10.3389/fceng.2020.620168) - Frontiers of Chemical Engineering
-3. PPOPT - Multiparametric Solver for Explicit MPC (accepted) - Excape 32
+3. [PPOPT - Multiparametric Solver for Explicit MPC](https://www.sciencedirect.com/science/article/abs/pii/B9780323958790502137) - Escape 32
 
 ### Presentations
 
@@ -37,6 +37,7 @@ Here are some highligts, click [here](https://dkenefake.github.io/publications) 
 7. Smart Manufacturing for Monitoring and Control of an Industrial Air Separation Unit - AIChE 2021 Fall Confrence 
 8. Modeling, Simulation and Control of an Air Separation Plant - 2021 Texas A&M Energy Confrence 
 9. Smart Manufacturing for Chemical Processing: Energy Efficient Operation of Air Separation Unit - CESMII Cross Pollination Workshop - Projects 2022
+10. PPOPT - A Solver for Explicit Model Predictive Control - Escape32
 
 ## Software Contributions
 
@@ -50,6 +51,7 @@ Here are some highligts, click [here](https://dkenefake.github.io/publications) 
 * CHEN 364 - Kinetics and Reactor Design (Fall 2019)
 * CHEN 322 - Chemical Engineering Material Science (Spring 2019)
 * CHEN 656 - Advanced Process Optimization (Spring 2022)
+* ICPE 604 - Energy System Engineering (Fall 2022)
 
 ### Officer Positions
 
