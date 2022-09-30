@@ -34,9 +34,15 @@ Iosif Pappas,  Nikolaos A. Diangelakis, **Dustin Kenefake**, Styliani Avraamidou
 
 ### A Partial Multiparametric Programming method for Model Predictive Control
 
-*FOCAPO2023* - TBD
+*TBA* - TBD
 
 **Dustin Kenefake**, Sahithi Srijana Akundi, Efstratios N. Pistikopoulos
+
+### An Improved Algorithm for Flux Variability Analysis
+
+*TBA* - TBD
+
+**Dustin Kenefake**, Erick Armingol, Nathan E. Lewis, Efstratios N. Pistikopoulos
 
 ## 2022
 
