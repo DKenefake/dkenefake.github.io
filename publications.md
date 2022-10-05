@@ -50,6 +50,12 @@ Iosif Pappas,  Nikolaos A. Diangelakis, **Dustin Kenefake**, Styliani Avraamidou
 
 **Dustin Kenefake**, Efstratios N. Pistikopoulos
 
+### A novel neural network bounds tightening procedure for multiparametric optimization and control
+
+*TBA* - TBD
+
+**Dustin Kenefake**, Rahul Kakodkar, Moustafa Ali, Efstratios N. Pistikopoulos
+
 ## 2022
 
 ### [PPOPT - Multiparametric Solver for Explicit MPC](https://www.sciencedirect.com/science/article/abs/pii/B9780323958790502137?via%3Dihub)
