@@ -44,6 +44,12 @@ Iosif Pappas,  Nikolaos A. Diangelakis, **Dustin Kenefake**, Styliani Avraamidou
 
 **Dustin Kenefake**, Erick Armingol, Nathan E. Lewis, Efstratios N. Pistikopoulos
 
+### A Novel Parallel Combinatorial Algorithm for Multiparametric Programming
+
+*TBA* - TBD
+
+**Dustin Kenefake**, Efstratios N. Pistikopoulos
+
 ## 2022
 
 ### [PPOPT - Multiparametric Solver for Explicit MPC](https://www.sciencedirect.com/science/article/abs/pii/B9780323958790502137?via%3Dihub)
