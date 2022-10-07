@@ -38,11 +38,6 @@ Iosif Pappas,  Nikolaos A. Diangelakis, **Dustin Kenefake**, Styliani Avraamidou
 
 **Dustin Kenefake**, Sahithi Srijana Akundi, Efstratios N. Pistikopoulos
 
-### An Improved Algorithm for Flux Variability Analysis
-
-*TBA* - TBD
-
-**Dustin Kenefake**, Erick Armingol, Nathan E. Lewis, Efstratios N. Pistikopoulos
 
 ### A Novel Parallel Combinatorial Algorithm for Multiparametric Programming
 
@@ -57,6 +52,12 @@ Iosif Pappas,  Nikolaos A. Diangelakis, **Dustin Kenefake**, Styliani Avraamidou
 **Dustin Kenefake**, Rahul Kakodkar, Moustafa Ali, Efstratios N. Pistikopoulos
 
 ## 2022
+
+### [An Improved Algorithm for Flux Variability Analysis](https://www.researchsquare.com/article/rs-2109496/v1)
+
+*ResearchSquare (Preprint Server)* 2022
+
+**Dustin Kenefake**, Erick Armingol, Nathan E. Lewis, Efstratios N. Pistikopoulos
 
 ### [PPOPT - Multiparametric Solver for Explicit MPC](https://www.sciencedirect.com/science/article/abs/pii/B9780323958790502137?via%3Dihub)
 
