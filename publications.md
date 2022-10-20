@@ -24,19 +24,13 @@ Here are the papers to which I've contributed. The titles for published papers a
 
 *Encyclopedia of Optimization* - TBD
 
-Styliani Avraamidou,  Nikolaos A. Diangelakis, Iosif Pappas, **Dustin Kenefake**, Richard Oberdieck, Efstratios N. Pistikopoulos,   
+Styliani Avraamidou,  Nikolaos A. Diangelakis, Iosif Pappas, **Dustin Kenefake**, Richard Oberdieck, Efstratios N. Pistikopoulos
 
 ### Multi-parametric Nonlinear Programming
 
 *Encyclopedia of Optimization* - TBD
 
-Iosif Pappas,  Nikolaos A. Diangelakis, **Dustin Kenefake**, Styliani Avraamidou, Richard Oberdieck, Efstratios N. Pistikopoulos,   
-
-### A Partial Multiparametric Programming method for Model Predictive Control
-
-*TBA* - TBD
-
-**Dustin Kenefake**, Sahithi Srijana Akundi, Efstratios N. Pistikopoulos
+Iosif Pappas,  Nikolaos A. Diangelakis, **Dustin Kenefake**, Styliani Avraamidou, Richard Oberdieck, Efstratios N. Pistikopoulos
 
 
 ### A Novel Parallel Combinatorial Algorithm for Multiparametric Programming
@@ -51,7 +45,25 @@ Iosif Pappas,  Nikolaos A. Diangelakis, **Dustin Kenefake**, Styliani Avraamidou
 
 **Dustin Kenefake**, Rahul Kakodkar, Moustafa Ali, Efstratios N. Pistikopoulos
 
+### A new framework and online solution engines for multiparametric Model Predictive Control
+
+*TBA* - TBD
+
+Diogo Narciso, **Dustin Kenefake**, Sahithi Srijana Akundi, Fernando Martins, Efstratios N. Pistikopoulos
+
+### Process Design and Intensification of Catalytic Fluidized Membrane Reactor for Oxidative Coupling of Methane
+
+*TBA* - TBD
+
+Moustafa Ali, Yuhe Tian, **Dustin Kenefake**, Shauvik De, Alexander P. Van Bavel, Iosif Pappas, C. Doga Demirhan, Efstratios N. Pistikopoulos
+
 ## 2022
+
+### A Partial Multiparametric Programming method for Model Predictive Control
+
+*Foundations of Computer-Aided Process Operations* - Accepted
+
+**Dustin Kenefake**, Sahithi Srijana Akundi, Efstratios N. Pistikopoulos
 
 ### [An Improved Algorithm for Flux Variability Analysis](https://www.researchsquare.com/article/rs-2109496/v1)
 
