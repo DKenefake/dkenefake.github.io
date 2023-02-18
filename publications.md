@@ -65,9 +65,9 @@ Moustafa Ali, Yuhe Tian, **Dustin Kenefake**, Shauvik De, Alexander P. Van Bavel
 
 **Dustin Kenefake**, Sahithi Srijana Akundi, Efstratios N. Pistikopoulos
 
-### [An Improved Algorithm for Flux Variability Analysis](https://www.researchsquare.com/article/rs-2109496/v1)
+### [An Improved Algorithm for Flux Variability Analysis](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-05089-9)
 
-*ResearchSquare (Preprint Server)* 2022
+*BMC Bioinformatics* 2022
 
 **Dustin Kenefake**, Erick Armingol, Nathan E. Lewis, Efstratios N. Pistikopoulos
 
