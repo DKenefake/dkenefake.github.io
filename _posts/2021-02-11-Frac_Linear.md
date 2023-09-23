@@ -28,7 +28,6 @@ $$\max_{y, t} c^Ty + \alpha t$$
 
 $$
     \begin{align*}
-        
         \begin{split}
             \text{s.t. }d^Ty + \beta t &= 1\\
             Ay - bt &\leq 0\\
