@@ -13,29 +13,27 @@ Here are the papers to which I've contributed. The titles for published papers a
 *TBA* - TBD
 Kiyeob Lee, **Dustin Kenefake**, Le Xie, and Efstratios N. Pistikopoulos
 
-### Multi-parametric Linear and Quadratic Programming
-
-*Encyclopedia of Optimization* - TBD
-
-**Dustin Kenefake**, Iosif Pappas, Nikolaos A. Diangelakis, Styliani Avraamidou, Richard Oberdieck, Efstratios N. Pistikopoulos
-
 ### Continuous and Mixed-integer Linear and Quadratic Multilevel Optimization through Multi-parametric Programming
 
 *Encyclopedia of Optimization* - TBD
 
 Styliani Avraamidou,  Nikolaos A. Diangelakis, Iosif Pappas, **Dustin Kenefake**, Richard Oberdieck, Efstratios N. Pistikopoulos
 
-
-
 ## ACCEPTED
 
 ### A Novel Parallel Combinatorial Algorithm for Multiparametric Programming
 
-*Optimization and Engineering* - TBD
+*Optimization and Engineering* - 2023
 
 **Dustin Kenefake**, Efstratios N. Pistikopoulos
 
 ## 2023
+
+### [Multi-parametric Linear and Quadratic Programming](https://link.springer.com/referenceworkentry/10.1007/978-3-030-54621-2_753-1)
+
+*Encyclopedia of Optimization* 2023
+
+**Dustin Kenefake**, Iosif Pappas, Nikolaos A. Diangelakis, Styliani Avraamidou, Richard Oberdieck, Efstratios N. Pistikopoulos
 
 ### [A novel neural network bounds tightening procedure for multiparametric optimization and control](https://www.sciencedirect.com/science/article/abs/pii/B9780443152740502924?via%3Dihub)
 
