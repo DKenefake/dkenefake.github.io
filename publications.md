@@ -19,15 +19,13 @@ Kiyeob Lee, **Dustin Kenefake**, Le Xie, and Efstratios N. Pistikopoulos
 
 Styliani Avraamidou,  Nikolaos A. Diangelakis, Iosif Pappas, **Dustin Kenefake**, Richard Oberdieck, Efstratios N. Pistikopoulos
 
-## ACCEPTED
+## 2023
 
-### A Novel Parallel Combinatorial Algorithm for Multiparametric Programming
+### [A Novel Parallel Combinatorial Algorithm for Multiparametric Programming](https://link.springer.com/article/10.1007/s11081-023-09845-5)
 
 *Optimization and Engineering* - 2023
 
 **Dustin Kenefake**, Efstratios N. Pistikopoulos
-
-## 2023
 
 ### [Multi-parametric Linear and Quadratic Programming](https://link.springer.com/referenceworkentry/10.1007/978-3-030-54621-2_753-1)
 
