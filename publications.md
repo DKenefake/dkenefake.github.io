@@ -19,6 +19,30 @@ Kiyeob Lee, **Dustin Kenefake**, Le Xie, and Efstratios N. Pistikopoulos
 
 Styliani Avraamidou,  Nikolaos A. Diangelakis, Iosif Pappas, **Dustin Kenefake**, Richard Oberdieck, Efstratios N. Pistikopoulos
 
+## 2024 
+
+### [A multiparametric approach to accelerating ReLU neural network based model predictive control](https://www.sciencedirect.com/science/article/abs/pii/S0967066124002004)
+
+**Dustin Kenefake**, Rahul Kakodkar, Sahithi S Akundi, Moustafa Ali, Efstratios N Pistikopoulos
+
+### [A Multi-Parametric Optimization Approach for Bi-Level Decision-Making Strategies in Energy-Water Nexus Supply Systems](https://www.sciencedirect.com/science/article/abs/pii/B9780443288241504002)
+
+*Computer Aided Chemical Engineering* - 2024
+
+Elizabeth J Abraham, Marcello Di Martino, **Dustin Kenefake**, Dhabia M Al-Mohannadi, Efstratios N Pistikopoulos
+
+### [Robust Scheduling of Energy Systems Under Forecasting Uncertainty–A Multi-Parametric Optimization Approach](https://www.sciencedirect.com/science/article/abs/pii/B978044328824150209X)
+
+*Computer Aided Chemical Engineering* - 2024
+
+Rahul Kakodkar, **Dustin Kenefake**, Harsh Shah, Iosif Pappas, C Doga Demirhan, Mete Mutlu, Xiao Fu, Efstratios N Pistikopoulos
+
+### [The quest towards the integration of process control, process operations, and process operability–Industrial need or academic curiosity?](https://www.sciencedirect.com/science/article/pii/S009813542300340X)
+
+*Computers & Chemical Engineering* - 2024
+
+Efstratios N. Pistikopoulos, Sahithi Srijana Akundi, **Dustin Kenefake**, Nikolaos A. Diangelakis
+
 ## 2023
 
 ### [A Novel Parallel Combinatorial Algorithm for Multiparametric Programming](https://link.springer.com/article/10.1007/s11081-023-09845-5)
