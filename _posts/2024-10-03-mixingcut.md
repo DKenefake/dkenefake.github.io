@@ -15,7 +15,7 @@ This post is going back to building out tools for the QUBO solver we are making,
 
 $$
 \begin{align*}
-\min_{X} &\text{tr}(QX) \\
+\min_{X} \quad &\text{tr}(QX) \\
 s.t. &X_{ii} = 1\\
 &X \succeq 0
 \end{align*}
@@ -27,7 +27,7 @@ This is all good and well, but this still requires solving an SDP, which is not 
 
 $$
 \begin{align*}
-\min_{X} &\text{tr}(QYY^T) \\
+\min_{Y}\quad &\text{tr}(QYY^T) \\
 s.t. &||Y_{i}||_2 = 1\\
 \end{align*}
 $$
