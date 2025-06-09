@@ -10,7 +10,7 @@ I am Dustin Kenefake, a Post Doc for in the [ProOptiMA group](https://www.mierap
 
 ### Chemical Engineering, PhD
 
-Texas A&M (Aug 2019 - Now)
+Texas A&M (Aug 2019 - Feb 2025)
 
 ### Chemical Engineering, BS
 
