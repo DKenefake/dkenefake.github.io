@@ -4,7 +4,7 @@ title: About Me
 sidebar_link: true
 ---
 
-I am Dustin Kenefake, a Post Doc for in the [ProOptiMA group](https://www.mierapetritou.com/research). Formerly, a PhD student in the [Pistikopoulos Group](https://parametric.tamu.edu/), where I focus mainly on algorithms and software for automatic desision making. In undergrad I worked in the [Krempner Lab](https://www.depts.ttu.edu/chemistry/Faculty/krempner/) studying novel catalytic systems. In my off time, I like to cook and make beer.  
+I am Dustin Kenefake, a Post Doc for in the [ProOptiMA group](https://www.mierapetritou.com/research). Formerly, a PhD student in the [Pistikopoulos Group](https://parametric.tamu.edu/), where I focus mainly on algorithms and software for automatic decision making. In undergrad I worked in the [Krempner Lab](https://www.depts.ttu.edu/chemistry/Faculty/krempner/) studying novel catalytic systems. In my off time, I like to cook and make beer.  
 
 ## Education
 
