@@ -38,17 +38,9 @@ The newer versions of Hercules have gotten much better at both. We will not be t
 
 ## Roof Dual Preprocessing
 
-In an earlier post, I talked about persistency as a way to identify variables that must take a particular value in any optimal solution. The basic idea is that if we can prove that a variable fixed to either $0$ or $1$ can only make the solution worse, then we know what it must be. That variable is fixed before we hand it to the subproblem solver, and we get to keep that variable fixation for all children nodes. The roof dual gives us a really strong way to generate these certificates.
+In an earlier post, I talked about persistency as a way to identify variables that must take a particular value in any optimal solution. The basic idea is that if we can prove that a variable fixed to either $0$ or $1$ can never participate in a global solution, then we know what it must not be. That variable is fixed before we hand it to the subproblem solver, and we get to keep that variable fixed for all children nodes. The roof dual gives us a really easy way to generate these certificates.
 
-One way to view a QUBO is as a pairwise pseudo-Boolean function.
-
-$$
-\begin{align}
-f(x) = \sum_i \theta_i(x_i) + \sum_{(i,j)\in E} \theta_{ij}(x_i,x_j), \quad x_i \in \{0,1\}
-\end{align}
-$$
-
-Hammer's description of the roof dual is a little more intuitive than the local marginal LP. [2] For a quadratic objective
+Hammer's description of the roof dual is a little more intuitive than most [2]. For a quadratic objective
 
 $$
 \begin{align}
@@ -106,13 +98,13 @@ x_i \text{ unlabeled} &\implies \text{no fix certified}
 \end{align}
 $$
 
-There are several equivalent ways to arrive at this same bound. The local consistency LP relaxation of the pairwise binary problem gives the same roof-dual value, and so does the max-flow/min-cut construction discussed below. But Hammer's LP is the one I find easiest to remember: rewrite the objective as a lower bound plus nonnegative leftovers.
+There are several equivalent ways to arrive at this same bound. The local consistency LP relaxation of the pairwise binary problem gives the same roof-dual value, and so does the max-flow/min-cut construction discussed below. But Hammer's LP is the one I find easiest to understand: rewrite the objective as a lower bound plus nonnegative leftovers.
 
 This is why the roof dual is so useful as a preprocessor. It is not just giving a lower bound; it is giving direct information about which variables can be removed from the branch and bound problem before the tree is even created. Even better, this pass can be iterated, and it can find new variables to provably fix. 
 
 This is a big deal because fixed variables compound. If we fix 10 variables, then in the worst possible enumeration view we cut away a factor of $2^{10}$ possible assignments. Of course, branch and bound is not doing raw enumeration, but still we want to use as much information as possible (that we can get cheaply). Every variable that is fixed at the root is one less variable that can split the tree later.
 
-The other important part is that fixing variables changes the subproblems themselves. If $x_i$ is fixed to some value $p_i$, then that term can be substituted directly into the problem. If $\mathcal{F}$ is the set of fixed variables and $\mathcal{R}$ is the remaining set, then for a symmetric QUBO we can write the reduced problem as follows.
+The other important part is that fixing variables changes the subproblems themselves. If $x_i$ is fixed to some value $p_i$, then that term can be substituted for that subproblem and any decendant subproblems. If $\mathcal{F}$ is the set of fixed variables and $\mathcal{R}$ is the remaining set, then for a symmetric QUBO we can write the reduced problem as follows.
 
 $$
 \begin{align}
