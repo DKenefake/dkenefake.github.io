@@ -32,15 +32,15 @@ The difficulty is not evaluating this function or even finding good solutions in
 This gives us two very different levers to pull.
 
 1. Domain reduction (fixing variables in a safe way!).
-2. Generate stronger lower bounds at the nodes that remain.
+2. Stronger lower bounds
 
 The newer versions of Hercules have gotten much better at both. We will not be talking about the second one in this post.
 
 ## Roof Dual Preprocessing
 
-In an earlier post, I talked about persistency as a way to identify variables that must take a particular value in any optimal solution. The basic idea is that if we can prove that a variable fixed to either $0$ or $1$ can never participate in a global solution, then we know what it must not be. That variable is fixed before we hand it to the subproblem solver, and we get to keep that variable fixed for all children nodes. The roof dual gives us a really easy way to generate these certificates.
+In an earlier post, I talked about persistency as a way to identify variables that must take a particular value in any optimal solution. The basic idea is that if we can prove one value of a variable cannot appear in any global optimum, then the variable must take the other value. That variable is fixed before we hand it to the subproblem solver, and we get to keep that variable fixed for all children nodes. The roof dual gives us a really easy way to generate these certificates.
 
-Hammer's description of the roof dual is a little more intuitive than most [2]. For a quadratic objective
+Hammer's description of the roof dual is a little more intuitive than most [2]. For the roof-dual discussion, it is convenient to rewrite the quadratic objective in edge-coefficient form.
 
 $$
 \begin{align}
@@ -98,7 +98,9 @@ $$
 \end{align}
 $$
 
-There are several equivalent ways to arrive at this same bound. The local consistency LP relaxation of the pairwise binary problem gives the same roof-dual value, and so does the max-flow/min-cut construction discussed below. But Hammer's LP is the one I find easiest to understand: rewrite the objective as a lower bound plus nonnegative leftovers.
+
+
+There are several equivalent ways to arrive to the bound generate above and the variable fixing machinery. The local consistency LP relaxation of the pairwise binary problem gives the same roof-dual value, and so does the max-flow/min-cut construction discussed below. But Hammer's LP is the one I find easiest to understand: rewrite the objective as a lower bound plus nonnegative leftovers.  In the graph view, the labels are much easier to read: after the max-flow/min-cut solve, the residual graph tells us which literals are forced. That is the version Hercules actually uses. The LP is mainly useful here because it explains what lower bound is being optimized.
 
 This is why the roof dual is so useful as a preprocessor. It is not just giving a lower bound; it is giving direct information about which variables can be removed from the branch and bound problem before the tree is even created. Even better, this pass can be iterated, and it can find new variables to provably fix. 
 
@@ -134,7 +136,7 @@ Solve time is useful, but it mixes together a few different things: preprocessin
 
 ![](/assets/imgs/hercules_qp_nodes_bqp100.png)
 
-This is a much better way to see the effect of the new preprocessing path. On BQP100, the median number of visited nodes drops from about 2.19 million in Hercules 0.5.0 QP to 40 in Hercules 0.6.3 QP. That is a reduction of over 50,000x. This is not just a faster implementation of the same algorithm; we are able to preprocess out many of the variables at each node, and we can prune branches with certainty much earlier. 
+This is a much better way to see the effect of the new preprocessing path. On BQP100, the median number of visited nodes drops from about 2.19 million in Hercules 0.5.0 QP to 40 in Hercules 0.6.3 QP. That is a reduction of over 50,000x. The node counts suggest that most of this is not just implementation speed; the solver is solving a much smaller search problem (provably correctly).
 
 ## Wrapping Up
 
