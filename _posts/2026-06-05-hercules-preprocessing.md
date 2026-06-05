@@ -92,9 +92,9 @@ It has a very nice extra property: when the roof dual solution labels a variable
 
 $$
 \begin{align}
-x_i \text{ labeled } 1 &\implies x_i = 1\\
-x_i \text{ labeled } 0 &\implies x_i = 0\\
-x_i \text{ unlabeled} &\implies \text{no fix certified}
+\nu_i > 0 &\implies x_i = 0, \\
+\nu_i < 0 &\implies x_i = 1, \\
+\nu_i = 0 &\implies \text{no certified fixing.}
 \end{align}
 $$
 
@@ -117,7 +117,7 @@ $$
 
 This is one of those changes that sounds almost too simple once stated. If we already know the value of a variable, then stop carrying it around. However, in a branch and bound solver this matters quite a bit because every node solve gets cheaper, and each child problem gets smaller as more variables are fixed.
 
-A somewhat important thing to point out is that this does not need to be solved by calling a generic LP solver. The same roof-dual bound can be obtained from an equivalent graph construction: build a graph on literals, solve a max-flow/min-cut problem, and read the persistent labels from the residual graph. Hercules builds that graph directly. In practice, this means we can solve it fairly quickly with an off the shelf graph package in Rust, [petgraph](https://docs.rs/petgraph/latest/petgraph/). [1]
+A somewhat important thing to point out is that this does not need to be solved by calling a generic LP solver. The same roof-dual bound can be obtained from an equivalent graph construction: build a graph on literals, solve a max-flow/min-cut problem, and read the persistent labels from the residual graph. In practice, this means we can solve it fairly quickly with an off the shelf graph package in Hercules, which is what we do using [petgraph](https://docs.rs/petgraph/latest/petgraph/). [1]
 
 ## What the New Preprocessing Routines Buy Us
 
